@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>GeoMarket - Home page</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./home.css">
+        <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap-grid.min.css">
+    </head>
+    <body>
+        <!-- Header Section -->
+        <header>
+            <nav class="g-nav">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="g-logo col-md-2 col-sm-6 col-6">
+                            <img src="./assets/img/logo.png" alt="">
+                        </div>
+                        <ul class="g-menu col-md-6 g-dfw">
+                            <li><a href="javascript:void(0)">Home</a></li>
+                            <li><a href="javascript:void(0)">Category</a></li>
+                            <li><a href="javascript:void(0)">All ADS</a></li>
+                            <li><a href="javascript:void(0)">Help/Support</a></li>
+                            <li><a href="javascript:void(0)">Page</a></li>
+                        </ul>
+                        <div class="g-extra-actions g-dfw justify-content-end col-md-4">
+                            <div class="g-ea_item g-dfw g-auth align-items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15px" height="16px">
+                                    <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="18px" x="0px" y="16.166px">
+                                        <tspan font-size="18px" font-family="FontAwesome" fill="#FFFFFF">&#61447;</tspan>
+                                    </text>
+                                </svg>
+                                <div class="g-eaii_auth-btn g-dfw">
+                                    <a href="javascript:void(0)">Register</a>
+                                    <span>/</span>
+                                    <a href="javascript:void(0)">Sign In</a>
+                                </div>
+                            </div>
+                            <div class="g-ea-item">
+                                <button class="g-post_ad g-btn_green invert">Post your AD</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="g-h_banner">
+                <div class="container">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="g-h_text-wrap col-md-8">
+                            <h1>World's Largest Classifieds Site</h1>
+                            <p>Search from over 15,00,000 classifieds & Post unlimited classif</p>
+                            <form action="#" class="g-search_form d-flex w-100">
+                                <label class="g-f_label g-sf_label">
+                                    <input type="search" name="" placeholder="What are you looking for">
+                                </label>
+                                <label class="g-f_label g-sf_label">
+                                    <select class="g-fl_select" name="location">
+                                        <option value="">You Location</option>
+                                        <option value="Dushanbe">Dushanbe</option>
+                                        <option value="Khujand">Khujand</option>
+                                        <option value="Buston">Buston</option>
+                                    </select>
+                                </label>
+                                <label class="g-f_label g-sf_label">
+                                    <select class="g-fl_select" name="location">
+                                        <option value="">Select Category</option>
+                                        <option value="Dushanbe">Vehiles</option>
+                                        <option value="Khujand">Electronics</option>
+                                        <option value="Buston">Mobiles</option>
+                                        <option value="Buston">Furniture</option>
+                                        <option value="Buston">Fashion</option>
+                                        <option value="Buston">Jobs</option>
+                                        <option value="Buston">Real Estate</option>
+                                        <option value="Buston">Animals</option>
+                                        <option value="Buston">Education</option>
+                                        <option value="Buston">Baby</option>
+                                        <option value="Buston">Services</option>
+                                        <option value="Buston">Matrimony</option>
+                                    </select>
+                                </label>
+                                <button type="submit" class="g-btn_green">Search Now</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+
+        <!-- Header Section End -->
+
+        <!-- Main Section -->
+
+        <main class="g-main">
+            <!-- Catigories Section -->
+            <section class="g-categories">
+                <div class="container">
+                    <h2 class="g-s_heading">Categories</h2>
+                    <p class="g-s_desk">Explore the greates places in the city.</p>
+
+                    <div class="row">
+                        <div class="g-c_item col-md-2 col-sm-4 col-6">
+                            <a href="javascript:void(0)" class="g-c_icon-wrap light-blue g-dfw justify-content-center align-content-center">
+                                <svg class="g-ci_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64px" height="30px">
+                                    <image  x="0px" y="0px" width="64px" height="30px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAeCAQAAAA25NDSAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQflCxgRCyHaWW4iAAAER0lEQVRIx7WXS2xUZRiGn+m0FHoBBezAbFqlpgVaLhEtF0kIQloDggtW2oUa2BgwcUFYIQlB2SgSKrIgQUJMlLgAJYAIaRdyEdwAcilGqI2WhnKxXDqlMO3jYg4DAx2YDvr9OSf/+f73fO87/+WdmZA8VQymknGMp5Bb3HzgusE54pkUyM2Kdjh1VDGO8bxAThpMJ/vYw14uP75UaIAzEKaWd1hAfvAc4zx/MJcitnOFZ3g2uIYHiD4a+ZBTj6noQNobnjURra5ztqOD/J9qXQoy7DRXeUjVu35mcbqamZNX2ajqDT/1lYfGHhWQaCHvxV9WPJ2Ad42pd/3Skn5G0wnIVXWJ19SLvpitgHy3qPqTlWkQ6QTkqxr1BU+qf/t8NgJy/UHVz81Ji0knoEDVEnGkLeoRwwMVkOO3atz3H4tKJ6BY1REiTrRLXfEwpr9jGGYso4gQIcJLvAb8zpHHHs5FFHKAtkfyebwFfMMdAKZSQQ/vsZNYOh8oZy5zmc2wLMwp84ixh+/YTVeqgBk0MDno3+E0HXTSSSe3/1PyEhYSBaCbvXzE6cRKPOdX9qm97nOZNeZn7A4DbznOdINtqh5PbMKRtqk9fmzp/0j8sIy31U7JBT4hSg+L+TplsoZQRRfn6H3KSQ9TQSGn6E7JjkvuM/F8YJdTAnVlbvGMcVVjHnONhVl9ykLXeMyYqnHPuMWyYGRKwPhPYgk61RYPOELMc4VdwfCVZK/V+QOmn29r8HaXV5K9FeaJIzxgS6qASSIO8qCqTS6yVAxb5WJbVF09IPrVqra42CrDYqmLbFL1oINEnJTYA6kCNqq3XGpIJLhjkZvss88FGdMvsM8+N1kUPN+rt9Rb6sZUAbtUnSjWa2CpIZfY6HUvusPpIq5VOx2TEf0YO9W1Ik53hxe9bqNLDIl1qtYHAnQXqnZYJDarm8Uh7vd+9LpKzPeUuj4jAevVU+aLq+x9oNJ+h4ib1WaxyA7VhIBysUKNOVRcp3a70inOcpuqteIc9UJGAi6oc8RaVbc5yymutFtdJw41plaI5fcFlInL1cNi1F51XrJcQ8KxLDCuVj+RvlqNWyAeVxuS+Xlqr1HxsLpcLFMNKXCU24ylhAY+YCE7OcnEpGWM5iK9DCXGSapp5tITjCdCJb8xgQJuECZKe3LkBBN4k+/ZwDI6OMtgaiCXdkZTE0CagCikfLF2ECeXCC00UU0llRm4XxMQIUycjgeybUwgCjSxjBJKAGgPWc6MJNU++niVn7lEKT1BdipHuMkwpIh5DM6A/ja7uUWI6xQzjV+CbD6tRJjJQXKoJRLY8KFH17DAdnWzeSJGPK5uz8qKt6vHjYiY52a13YKHUf3biGqzDW71snrVUVkJGOVV9bJb/cJm1f6srP9X672WPL0nnJwVPeJkTyTrXLO+P0y6v2Yl1PEyNznK3uAXXXYxiNepoZhf+TFlQybjXzoebImPNUnOAAAAAElFTkSuQmCC" />
+                                </svg>
+                                <h4>Vehiles</h4>
+                            </a>
+                        </div>
+                        <div class="g-c_item col-md-2 col-sm-4 col-6">
+                            <a href="javascript:void(0)" class="g-c_icon-wrap dark-pink g-dfw justify-content-center align-content-center">
+                                <svg class="g-ci_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46px" height="40px">
+                                    <image  x="0px" y="0px" width="46px" height="40px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAoCAQAAAAr6QChAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQflCxgRDDD/qNgXAAADA0lEQVRIx+2WOWgVURSGvzsz7ykJETde1ASNENDgEqKFC4q4gAvGwlgJgpVbY2Vh44ooWKggNgEFF2xjXLAQC9EmKkYIUSQgGokSs5gYTcb33vwWGbM8Z96byJT+p7v/zHfP3HvuuWNEgKZSRx/3GSRMK1jNXdrILwVFlZoknVFJoGtUpx71qlbkjzBjvZol1WvWX05Sh5RVrw4WQofDUbUeSWrUgnGjJTor6YN2FUbng6O5ui2pSStHRlK6Jum11kRB54ejGbokT63aIoQq1SjpoZZGQxeCI1Qv6ZMe6J6aJb1SaVR0IfgindN7DWtIkjSg69oeB3yX3kh6rgOq0TyVa6F26JZcdeuMnChwI4AkC6liCt5I+btUsZc5vOEGHxEGEIZitlNLmjvcxcEEHBzDIG9pwQUjWM4pNpFh/GG1sBAeHoxAhLB8Jxt6Lg0OLzjJY6Ml3CPFAx4xiJVzdMEEZOf5CBMCT7CSOsRhdENZHY1eARFjj7JqQ5/1UanY4ZZa5TqkaPFX22YBNdhjtjW/DBadPKM/wJtMOxUOHvhrXclNaiKC/6iLU1wmqG/b4PhlBlBGDc3U42JHArusYj/ruMoPqjlAKRngOydoH95uZ1x9QAtXJpB3B/uGc6SUjVTi4vCVi7QP27nwBA6ZyPBiwEPAE9aRQBiyfP1jOzmPh1dvkEaftalkGllseukMg/+rNnOBFAI8NtAUL/wpx5iOB/TTGnfm3TSQBAwuP+OGr+U45XgY+tjD23jhaToRYDEwWm1xwZ/RRBHCon+0fcQFhzR9uUPWv3Ci6j88EjxDegJv/8pvj60WCyhiNl6k7xEe0wErvNWNhQ8BW2kgQyLwbsmFZyjD8C08fwfb78jwjtOsocTvy4VkmMQXXnKdocCps+CQIemvcxfHmBkp69EJenADnSxJLIdWKphPrz/YFRmcX1OpJm2fSLCTRbTRg3BiCJvJLOYcy7hvVMJ59tNNBwMTvOSCJSZRRooGjhhBEdvYzVyKI/8O5d8Hl3Yauc2P37PdrOG/oqQEAAAAAElFTkSuQmCC" />
+                                </svg>
+                                <h4>Electronics</h4>
+                            </a>
+                        </div>
+                        <div class="g-c_item col-md-2 col-sm-4 col-6">
+                            <a href="javascript:void(0)" class="g-c_icon-wrap yellow g-dfw justify-content-center align-content-center">
+                                <svg class="g-ci_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="37px">
+                                    <image  x="0px" y="0px" width="24px" height="37px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAlCAQAAADymuEAAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQflCxgRDTWW2R3ZAAABJ0lEQVQ4y+3VPUpDQRTF8d9LhqgYLNKKhZWNTbQQbaxES0sX4AZsXIRbcQnWChYBUwqCoFZ2Ab/ei8m1yPOhBo0LyLnNzJn7P5dpZoTYjtPoRb+sIl7juazXKCq/F6exHZJZh/Y0fWqg61YDhWVt9dJfsOfNZbJqU1MgA3UtuYR3rao90LRpNVmUPLr2XgLUDPXBg7sKSFYki0luTseJJ7XyMKvQEOVqqOnYujwhuXeh8Lca7m0oU7Mq/XfVRnNr5SZNBNKod3Ly2KApMAWmwBSonsa/1Df8BDKFfCKQK2QkvGg78vblsG4ezwZfvFltLyQNT7ZsfUsbOsPO2A2vNZKembHxV/Zxbu2HP6OXdN1Yqj6OkVp20frRPnCjK8RBdOI/6sRB+ACqjJIOD9qD/wAAAABJRU5ErkJggg==" />
+                                </svg>
+                                <h4>Electronics</h4>
+                            </a>
+                        </div>
+                        <div class="g-c_item col-md-2 col-sm-4 col-6">
+                            <a href="javascript:void(0)" class="g-c_icon-wrap brown g-dfw justify-content-center align-content-center">
+                                <svg class="g-ci_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64px" height="30px">
+                                    <image  x="0px" y="0px" width="64px" height="30px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAeCAQAAAA25NDSAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQflCxgRCyHaWW4iAAAER0lEQVRIx7WXS2xUZRiGn+m0FHoBBezAbFqlpgVaLhEtF0kIQloDggtW2oUa2BgwcUFYIQlB2SgSKrIgQUJMlLgAJYAIaRdyEdwAcilGqI2WhnKxXDqlMO3jYg4DAx2YDvr9OSf/+f73fO87/+WdmZA8VQymknGMp5Bb3HzgusE54pkUyM2Kdjh1VDGO8bxAThpMJ/vYw14uP75UaIAzEKaWd1hAfvAc4zx/MJcitnOFZ3g2uIYHiD4a+ZBTj6noQNobnjURra5ztqOD/J9qXQoy7DRXeUjVu35mcbqamZNX2ajqDT/1lYfGHhWQaCHvxV9WPJ2Ad42pd/3Skn5G0wnIVXWJ19SLvpitgHy3qPqTlWkQ6QTkqxr1BU+qf/t8NgJy/UHVz81Ji0knoEDVEnGkLeoRwwMVkOO3atz3H4tKJ6BY1REiTrRLXfEwpr9jGGYso4gQIcJLvAb8zpHHHs5FFHKAtkfyebwFfMMdAKZSQQ/vsZNYOh8oZy5zmc2wLMwp84ixh+/YTVeqgBk0MDno3+E0HXTSSSe3/1PyEhYSBaCbvXzE6cRKPOdX9qm97nOZNeZn7A4DbznOdINtqh5PbMKRtqk9fmzp/0j8sIy31U7JBT4hSg+L+TplsoZQRRfn6H3KSQ9TQSGn6E7JjkvuM/F8YJdTAnVlbvGMcVVjHnONhVl9ykLXeMyYqnHPuMWyYGRKwPhPYgk61RYPOELMc4VdwfCVZK/V+QOmn29r8HaXV5K9FeaJIzxgS6qASSIO8qCqTS6yVAxb5WJbVF09IPrVqra42CrDYqmLbFL1oINEnJTYA6kCNqq3XGpIJLhjkZvss88FGdMvsM8+N1kUPN+rt9Rb6sZUAbtUnSjWa2CpIZfY6HUvusPpIq5VOx2TEf0YO9W1Ik53hxe9bqNLDIl1qtYHAnQXqnZYJDarm8Uh7vd+9LpKzPeUuj4jAevVU+aLq+x9oNJ+h4ib1WaxyA7VhIBysUKNOVRcp3a70inOcpuqteIc9UJGAi6oc8RaVbc5yymutFtdJw41plaI5fcFlInL1cNi1F51XrJcQ8KxLDCuVj+RvlqNWyAeVxuS+Xlqr1HxsLpcLFMNKXCU24ylhAY+YCE7OcnEpGWM5iK9DCXGSapp5tITjCdCJb8xgQJuECZKe3LkBBN4k+/ZwDI6OMtgaiCXdkZTE0CagCikfLF2ECeXCC00UU0llRm4XxMQIUycjgeybUwgCjSxjBJKAGgPWc6MJNU++niVn7lEKT1BdipHuMkwpIh5DM6A/ja7uUWI6xQzjV+CbD6tRJjJQXKoJRLY8KFH17DAdnWzeSJGPK5uz8qKt6vHjYiY52a13YKHUf3biGqzDW71snrVUVkJGOVV9bJb/cJm1f6srP9X672WPL0nnJwVPeJkTyTrXLO+P0y6v2Yl1PEyNznK3uAXXXYxiNepoZhf+TFlQybjXzoebImPNUnOAAAAAElFTkSuQmCC" />
+                                </svg>
+                                <h4>Vehiles</h4>
+                            </a>
+                        </div>
+                        <div class="g-c_item col-md-2 col-sm-4 col-6">
+                            <a href="javascript:void(0)" class="g-c_icon-wrap violet g-dfw justify-content-center align-content-center">
+                                <svg class="g-ci_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46px" height="40px">
+                                    <image  x="0px" y="0px" width="46px" height="40px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAoCAQAAAAr6QChAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQflCxgRDDD/qNgXAAADA0lEQVRIx+2WOWgVURSGvzsz7ykJETde1ASNENDgEqKFC4q4gAvGwlgJgpVbY2Vh44ooWKggNgEFF2xjXLAQC9EmKkYIUSQgGokSs5gYTcb33vwWGbM8Z96byJT+p7v/zHfP3HvuuWNEgKZSRx/3GSRMK1jNXdrILwVFlZoknVFJoGtUpx71qlbkjzBjvZol1WvWX05Sh5RVrw4WQofDUbUeSWrUgnGjJTor6YN2FUbng6O5ui2pSStHRlK6Jum11kRB54ejGbokT63aIoQq1SjpoZZGQxeCI1Qv6ZMe6J6aJb1SaVR0IfgindN7DWtIkjSg69oeB3yX3kh6rgOq0TyVa6F26JZcdeuMnChwI4AkC6liCt5I+btUsZc5vOEGHxEGEIZitlNLmjvcxcEEHBzDIG9pwQUjWM4pNpFh/GG1sBAeHoxAhLB8Jxt6Lg0OLzjJY6Ml3CPFAx4xiJVzdMEEZOf5CBMCT7CSOsRhdENZHY1eARFjj7JqQ5/1UanY4ZZa5TqkaPFX22YBNdhjtjW/DBadPKM/wJtMOxUOHvhrXclNaiKC/6iLU1wmqG/b4PhlBlBGDc3U42JHArusYj/ruMoPqjlAKRngOydoH95uZ1x9QAtXJpB3B/uGc6SUjVTi4vCVi7QP27nwBA6ZyPBiwEPAE9aRQBiyfP1jOzmPh1dvkEaftalkGllseukMg/+rNnOBFAI8NtAUL/wpx5iOB/TTGnfm3TSQBAwuP+OGr+U45XgY+tjD23jhaToRYDEwWm1xwZ/RRBHCon+0fcQFhzR9uUPWv3Ci6j88EjxDegJv/8pvj60WCyhiNl6k7xEe0wErvNWNhQ8BW2kgQyLwbsmFZyjD8C08fwfb78jwjtOsocTvy4VkmMQXXnKdocCps+CQIemvcxfHmBkp69EJenADnSxJLIdWKphPrz/YFRmcX1OpJm2fSLCTRbTRg3BiCJvJLOYcy7hvVMJ59tNNBwMTvOSCJSZRRooGjhhBEdvYzVyKI/8O5d8Hl3Yauc2P37PdrOG/oqQEAAAAAElFTkSuQmCC" />
+                                </svg>
+                                <h4>Electronics</h4>
+                            </a>
+                        </div>
+                        <div class="g-c_item col-md-2 col-sm-4 col-6">
+                            <a href="javascript:void(0)" class="g-c_icon-wrap green g-dfw justify-content-center align-content-center">
+                                <svg class="g-ci_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="37px">
+                                    <image  x="0px" y="0px" width="24px" height="37px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAlCAQAAADymuEAAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQflCxgRDTWW2R3ZAAABJ0lEQVQ4y+3VPUpDQRTF8d9LhqgYLNKKhZWNTbQQbaxES0sX4AZsXIRbcQnWChYBUwqCoFZ2Ab/ei8m1yPOhBo0LyLnNzJn7P5dpZoTYjtPoRb+sIl7juazXKCq/F6exHZJZh/Y0fWqg61YDhWVt9dJfsOfNZbJqU1MgA3UtuYR3rao90LRpNVmUPLr2XgLUDPXBg7sKSFYki0luTseJJ7XyMKvQEOVqqOnYujwhuXeh8Lca7m0oU7Mq/XfVRnNr5SZNBNKod3Ly2KApMAWmwBSonsa/1Df8BDKFfCKQK2QkvGg78vblsG4ezwZfvFltLyQNT7ZsfUsbOsPO2A2vNZKembHxV/Zxbu2HP6OXdN1Yqj6OkVp20frRPnCjK8RBdOI/6sRB+ACqjJIOD9qD/wAAAABJRU5ErkJggg==" />
+                                </svg>
+                                <h4>Electronics</h4>
+                            </a>
+                        </div>
+                        <div class="g-c_item col-md-2 col-sm-4 col-6">
+                            <a href="javascript:void(0)" class="g-c_icon-wrap light-green g-dfw justify-content-center align-content-center">
+                                <svg class="g-ci_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64px" height="30px">
+                                    <image  x="0px" y="0px" width="64px" height="30px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAeCAQAAAA25NDSAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQflCxgRCyHaWW4iAAAER0lEQVRIx7WXS2xUZRiGn+m0FHoBBezAbFqlpgVaLhEtF0kIQloDggtW2oUa2BgwcUFYIQlB2SgSKrIgQUJMlLgAJYAIaRdyEdwAcilGqI2WhnKxXDqlMO3jYg4DAx2YDvr9OSf/+f73fO87/+WdmZA8VQymknGMp5Bb3HzgusE54pkUyM2Kdjh1VDGO8bxAThpMJ/vYw14uP75UaIAzEKaWd1hAfvAc4zx/MJcitnOFZ3g2uIYHiD4a+ZBTj6noQNobnjURra5ztqOD/J9qXQoy7DRXeUjVu35mcbqamZNX2ajqDT/1lYfGHhWQaCHvxV9WPJ2Ad42pd/3Skn5G0wnIVXWJ19SLvpitgHy3qPqTlWkQ6QTkqxr1BU+qf/t8NgJy/UHVz81Ji0knoEDVEnGkLeoRwwMVkOO3atz3H4tKJ6BY1REiTrRLXfEwpr9jGGYso4gQIcJLvAb8zpHHHs5FFHKAtkfyebwFfMMdAKZSQQ/vsZNYOh8oZy5zmc2wLMwp84ixh+/YTVeqgBk0MDno3+E0HXTSSSe3/1PyEhYSBaCbvXzE6cRKPOdX9qm97nOZNeZn7A4DbznOdINtqh5PbMKRtqk9fmzp/0j8sIy31U7JBT4hSg+L+TplsoZQRRfn6H3KSQ9TQSGn6E7JjkvuM/F8YJdTAnVlbvGMcVVjHnONhVl9ykLXeMyYqnHPuMWyYGRKwPhPYgk61RYPOELMc4VdwfCVZK/V+QOmn29r8HaXV5K9FeaJIzxgS6qASSIO8qCqTS6yVAxb5WJbVF09IPrVqra42CrDYqmLbFL1oINEnJTYA6kCNqq3XGpIJLhjkZvss88FGdMvsM8+N1kUPN+rt9Rb6sZUAbtUnSjWa2CpIZfY6HUvusPpIq5VOx2TEf0YO9W1Ik53hxe9bqNLDIl1qtYHAnQXqnZYJDarm8Uh7vd+9LpKzPeUuj4jAevVU+aLq+x9oNJ+h4ib1WaxyA7VhIBysUKNOVRcp3a70inOcpuqteIc9UJGAi6oc8RaVbc5yymutFtdJw41plaI5fcFlInL1cNi1F51XrJcQ8KxLDCuVj+RvlqNWyAeVxuS+Xlqr1HxsLpcLFMNKXCU24ylhAY+YCE7OcnEpGWM5iK9DCXGSapp5tITjCdCJb8xgQJuECZKe3LkBBN4k+/ZwDI6OMtgaiCXdkZTE0CagCikfLF2ECeXCC00UU0llRm4XxMQIUycjgeybUwgCjSxjBJKAGgPWc6MJNU++niVn7lEKT1BdipHuMkwpIh5DM6A/ja7uUWI6xQzjV+CbD6tRJjJQXKoJRLY8KFH17DAdnWzeSJGPK5uz8qKt6vHjYiY52a13YKHUf3biGqzDW71snrVUVkJGOVV9bJb/cJm1f6srP9X672WPL0nnJwVPeJkTyTrXLO+P0y6v2Yl1PEyNznK3uAXXXYxiNepoZhf+TFlQybjXzoebImPNUnOAAAAAElFTkSuQmCC" />
+                                </svg>
+                                <h4>Vehiles</h4>
+                            </a>
+                        </div>
+                        <div class="g-c_item col-md-2 col-sm-4 col-6">
+                            <a href="javascript:void(0)" class="g-c_icon-wrap dark-green g-dfw justify-content-center align-content-center">
+                                <svg class="g-ci_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46px" height="40px">
+                                    <image  x="0px" y="0px" width="46px" height="40px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAoCAQAAAAr6QChAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQflCxgRDDD/qNgXAAADA0lEQVRIx+2WOWgVURSGvzsz7ykJETde1ASNENDgEqKFC4q4gAvGwlgJgpVbY2Vh44ooWKggNgEFF2xjXLAQC9EmKkYIUSQgGokSs5gYTcb33vwWGbM8Z96byJT+p7v/zHfP3HvuuWNEgKZSRx/3GSRMK1jNXdrILwVFlZoknVFJoGtUpx71qlbkjzBjvZol1WvWX05Sh5RVrw4WQofDUbUeSWrUgnGjJTor6YN2FUbng6O5ui2pSStHRlK6Jum11kRB54ejGbokT63aIoQq1SjpoZZGQxeCI1Qv6ZMe6J6aJb1SaVR0IfgindN7DWtIkjSg69oeB3yX3kh6rgOq0TyVa6F26JZcdeuMnChwI4AkC6liCt5I+btUsZc5vOEGHxEGEIZitlNLmjvcxcEEHBzDIG9pwQUjWM4pNpFh/GG1sBAeHoxAhLB8Jxt6Lg0OLzjJY6Ml3CPFAx4xiJVzdMEEZOf5CBMCT7CSOsRhdENZHY1eARFjj7JqQ5/1UanY4ZZa5TqkaPFX22YBNdhjtjW/DBadPKM/wJtMOxUOHvhrXclNaiKC/6iLU1wmqG/b4PhlBlBGDc3U42JHArusYj/ruMoPqjlAKRngOydoH95uZ1x9QAtXJpB3B/uGc6SUjVTi4vCVi7QP27nwBA6ZyPBiwEPAE9aRQBiyfP1jOzmPh1dvkEaftalkGllseukMg/+rNnOBFAI8NtAUL/wpx5iOB/TTGnfm3TSQBAwuP+OGr+U45XgY+tjD23jhaToRYDEwWm1xwZ/RRBHCon+0fcQFhzR9uUPWv3Ci6j88EjxDegJv/8pvj60WCyhiNl6k7xEe0wErvNWNhQ8BW2kgQyLwbsmFZyjD8C08fwfb78jwjtOsocTvy4VkmMQXXnKdocCps+CQIemvcxfHmBkp69EJenADnSxJLIdWKphPrz/YFRmcX1OpJm2fSLCTRbTRg3BiCJvJLOYcy7hvVMJ59tNNBwMTvOSCJSZRRooGjhhBEdvYzVyKI/8O5d8Hl3Yauc2P37PdrOG/oqQEAAAAAElFTkSuQmCC" />
+                                </svg>
+                                <h4>Electronics</h4>
+                            </a>
+                        </div>
+                        <div class="g-c_item col-md-2 col-sm-4 col-6">
+                            <a href="javascript:void(0)" class="g-c_icon-wrap gray g-dfw justify-content-center align-content-center">
+                                <svg class="g-ci_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="37px">
+                                    <image  x="0px" y="0px" width="24px" height="37px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAlCAQAAADymuEAAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQflCxgRDTWW2R3ZAAABJ0lEQVQ4y+3VPUpDQRTF8d9LhqgYLNKKhZWNTbQQbaxES0sX4AZsXIRbcQnWChYBUwqCoFZ2Ab/ei8m1yPOhBo0LyLnNzJn7P5dpZoTYjtPoRb+sIl7juazXKCq/F6exHZJZh/Y0fWqg61YDhWVt9dJfsOfNZbJqU1MgA3UtuYR3rao90LRpNVmUPLr2XgLUDPXBg7sKSFYki0luTseJJ7XyMKvQEOVqqOnYujwhuXeh8Lca7m0oU7Mq/XfVRnNr5SZNBNKod3Ly2KApMAWmwBSonsa/1Df8BDKFfCKQK2QkvGg78vblsG4ezwZfvFltLyQNT7ZsfUsbOsPO2A2vNZKembHxV/Zxbu2HP6OXdN1Yqj6OkVp20frRPnCjK8RBdOI/6sRB+ACqjJIOD9qD/wAAAABJRU5ErkJggg==" />
+                                </svg>
+                                <h4>Electronics</h4>
+                            </a>
+                        </div>
+                        <div class="g-c_item col-md-2 col-sm-4 col-6">
+                            <a href="javascript:void(0)" class="g-c_icon-wrap pink g-dfw justify-content-center align-content-center">
+                                <svg class="g-ci_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64px" height="30px">
+                                    <image  x="0px" y="0px" width="64px" height="30px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAeCAQAAAA25NDSAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQflCxgRCyHaWW4iAAAER0lEQVRIx7WXS2xUZRiGn+m0FHoBBezAbFqlpgVaLhEtF0kIQloDggtW2oUa2BgwcUFYIQlB2SgSKrIgQUJMlLgAJYAIaRdyEdwAcilGqI2WhnKxXDqlMO3jYg4DAx2YDvr9OSf/+f73fO87/+WdmZA8VQymknGMp5Bb3HzgusE54pkUyM2Kdjh1VDGO8bxAThpMJ/vYw14uP75UaIAzEKaWd1hAfvAc4zx/MJcitnOFZ3g2uIYHiD4a+ZBTj6noQNobnjURra5ztqOD/J9qXQoy7DRXeUjVu35mcbqamZNX2ajqDT/1lYfGHhWQaCHvxV9WPJ2Ad42pd/3Skn5G0wnIVXWJ19SLvpitgHy3qPqTlWkQ6QTkqxr1BU+qf/t8NgJy/UHVz81Ji0knoEDVEnGkLeoRwwMVkOO3atz3H4tKJ6BY1REiTrRLXfEwpr9jGGYso4gQIcJLvAb8zpHHHs5FFHKAtkfyebwFfMMdAKZSQQ/vsZNYOh8oZy5zmc2wLMwp84ixh+/YTVeqgBk0MDno3+E0HXTSSSe3/1PyEhYSBaCbvXzE6cRKPOdX9qm97nOZNeZn7A4DbznOdINtqh5PbMKRtqk9fmzp/0j8sIy31U7JBT4hSg+L+TplsoZQRRfn6H3KSQ9TQSGn6E7JjkvuM/F8YJdTAnVlbvGMcVVjHnONhVl9ykLXeMyYqnHPuMWyYGRKwPhPYgk61RYPOELMc4VdwfCVZK/V+QOmn29r8HaXV5K9FeaJIzxgS6qASSIO8qCqTS6yVAxb5WJbVF09IPrVqra42CrDYqmLbFL1oINEnJTYA6kCNqq3XGpIJLhjkZvss88FGdMvsM8+N1kUPN+rt9Rb6sZUAbtUnSjWa2CpIZfY6HUvusPpIq5VOx2TEf0YO9W1Ik53hxe9bqNLDIl1qtYHAnQXqnZYJDarm8Uh7vd+9LpKzPeUuj4jAevVU+aLq+x9oNJ+h4ib1WaxyA7VhIBysUKNOVRcp3a70inOcpuqteIc9UJGAi6oc8RaVbc5yymutFtdJw41plaI5fcFlInL1cNi1F51XrJcQ8KxLDCuVj+RvlqNWyAeVxuS+Xlqr1HxsLpcLFMNKXCU24ylhAY+YCE7OcnEpGWM5iK9DCXGSapp5tITjCdCJb8xgQJuECZKe3LkBBN4k+/ZwDI6OMtgaiCXdkZTE0CagCikfLF2ECeXCC00UU0llRm4XxMQIUycjgeybUwgCjSxjBJKAGgPWc6MJNU++niVn7lEKT1BdipHuMkwpIh5DM6A/ja7uUWI6xQzjV+CbD6tRJjJQXKoJRLY8KFH17DAdnWzeSJGPK5uz8qKt6vHjYiY52a13YKHUf3biGqzDW71snrVUVkJGOVV9bJb/cJm1f6srP9X672WPL0nnJwVPeJkTyTrXLO+P0y6v2Yl1PEyNznK3uAXXXYxiNepoZhf+TFlQybjXzoebImPNUnOAAAAAElFTkSuQmCC" />
+                                </svg>
+                                <h4>Vehiles</h4>
+                            </a>
+                        </div>
+                        <div class="g-c_item col-md-2 col-sm-4 col-6">
+                            <a href="javascript:void(0)" class="g-c_icon-wrap orange g-dfw justify-content-center align-content-center">
+                                <svg class="g-ci_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46px" height="40px">
+                                    <image  x="0px" y="0px" width="46px" height="40px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAoCAQAAAAr6QChAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQflCxgRDDD/qNgXAAADA0lEQVRIx+2WOWgVURSGvzsz7ykJETde1ASNENDgEqKFC4q4gAvGwlgJgpVbY2Vh44ooWKggNgEFF2xjXLAQC9EmKkYIUSQgGokSs5gYTcb33vwWGbM8Z96byJT+p7v/zHfP3HvuuWNEgKZSRx/3GSRMK1jNXdrILwVFlZoknVFJoGtUpx71qlbkjzBjvZol1WvWX05Sh5RVrw4WQofDUbUeSWrUgnGjJTor6YN2FUbng6O5ui2pSStHRlK6Jum11kRB54ejGbokT63aIoQq1SjpoZZGQxeCI1Qv6ZMe6J6aJb1SaVR0IfgindN7DWtIkjSg69oeB3yX3kh6rgOq0TyVa6F26JZcdeuMnChwI4AkC6liCt5I+btUsZc5vOEGHxEGEIZitlNLmjvcxcEEHBzDIG9pwQUjWM4pNpFh/GG1sBAeHoxAhLB8Jxt6Lg0OLzjJY6Ml3CPFAx4xiJVzdMEEZOf5CBMCT7CSOsRhdENZHY1eARFjj7JqQ5/1UanY4ZZa5TqkaPFX22YBNdhjtjW/DBadPKM/wJtMOxUOHvhrXclNaiKC/6iLU1wmqG/b4PhlBlBGDc3U42JHArusYj/ruMoPqjlAKRngOydoH95uZ1x9QAtXJpB3B/uGc6SUjVTi4vCVi7QP27nwBA6ZyPBiwEPAE9aRQBiyfP1jOzmPh1dvkEaftalkGllseukMg/+rNnOBFAI8NtAUL/wpx5iOB/TTGnfm3TSQBAwuP+OGr+U45XgY+tjD23jhaToRYDEwWm1xwZ/RRBHCon+0fcQFhzR9uUPWv3Ci6j88EjxDegJv/8pvj60WCyhiNl6k7xEe0wErvNWNhQ8BW2kgQyLwbsmFZyjD8C08fwfb78jwjtOsocTvy4VkmMQXXnKdocCps+CQIemvcxfHmBkp69EJenADnSxJLIdWKphPrz/YFRmcX1OpJm2fSLCTRbTRg3BiCJvJLOYcy7hvVMJ59tNNBwMTvOSCJSZRRooGjhhBEdvYzVyKI/8O5d8Hl3Yauc2P37PdrOG/oqQEAAAAAElFTkSuQmCC" />
+                                </svg>
+                                <h4>Electronics</h4>
+                            </a>
+                        </div>
+                        <div class="g-c_item col-md-2 col-sm-4 col-6">
+                            <a href="javascript:void(0)" class="g-c_icon-wrap g-dfw justify-content-center align-content-center">
+                                <svg class="g-ci_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="37px">
+                                    <image  x="0px" y="0px" width="24px" height="37px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAlCAQAAADymuEAAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQflCxgRDTWW2R3ZAAABJ0lEQVQ4y+3VPUpDQRTF8d9LhqgYLNKKhZWNTbQQbaxES0sX4AZsXIRbcQnWChYBUwqCoFZ2Ab/ei8m1yPOhBo0LyLnNzJn7P5dpZoTYjtPoRb+sIl7juazXKCq/F6exHZJZh/Y0fWqg61YDhWVt9dJfsOfNZbJqU1MgA3UtuYR3rao90LRpNVmUPLr2XgLUDPXBg7sKSFYki0luTseJJ7XyMKvQEOVqqOnYujwhuXeh8Lca7m0oU7Mq/XfVRnNr5SZNBNKod3Ly2KApMAWmwBSonsa/1Df8BDKFfCKQK2QkvGg78vblsG4ezwZfvFltLyQNT7ZsfUsbOsPO2A2vNZKembHxV/Zxbu2HP6OXdN1Yqj6OkVp20frRPnCjK8RBdOI/6sRB+ACqjJIOD9qD/wAAAABJRU5ErkJggg==" />
+                                </svg>
+                                <h4>Electronics</h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Featured Setion -->
+            <section class="g-featured_ad">
+                <div class="container">
+                    <h2 class="g-s_heading">Featured Ads</h2>
+                    <p class="g-s_desk">Explore the greates places in the city.</p>
+
+                    <div class="row">
+                        <div class="g-fa_item col-md-3 col-sm-6 col-12">
+                            <div class="g-fai_content-wrap">
+                                <div class="g-fai_poster">
+                                    <img src="" alt="">
+                                    <span class="g-fai_status">New</span>
+                                </div>
+                                <div class="g-fa_info g-dfw">
+                                    <h4>Mobile</h4>
+                                    <div class="g-stowage">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12px" height="15px">
+                                            <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="16px" x="0px" y="15.0989999999999px">
+                                                <tspan font-size="16px" font-family="FontAwesome" fill="#00A651">&#61591;</tspan>
+                                            </text>
+                                        </svg>
+                                    </div>
+                                    <p>Smartphone for sele</p>
+                                    <!-- TODO: Stars TO DO -->
+                                    <div class="g-fai_location g-dfw">
+                                        <div class="g-fail_text-wrap g-dfw">
+                                            <svg class="g-failtw_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="8px" height="11px">
+                                                <image  x="0px" y="0px" width="8px" height="11px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAALCAMAAAB1RTwXAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAsVBMVEVdpVhdpVddpFddpVhdpFddpFddpFddpVhdpVddpVhdpFddpFddpVddpVddpVddpFddpVhdpVddpFddpVddpVhdpVhdpFddpVhdpVhdpVhdpFddpVhdpVhdpVhdpFddpVhdpFddpVhdpVhdpVhcpFddpFddpFddpVhdpVddpVhdpFddpVhdpVddpFddpVhdpFddpVhdpFddpFddpVhdpVddpVddpVhdpFdcpFddpVf////pB9usAAAANnRSTlMAAAAilezbdg03vtKx6I2ouCBA3fnbVZm8kAEZwV3l/pxrur0Qk/xXKuq7DY73VSfnuQ4BhVQDKNRHAAAAAWJLR0Q6TgnE+gAAAAd0SU1FB+ULGQ8FGLXbIrsAAABjSURBVAjXDchXAoIwEAXAl9VgoVixUe3SbOhucv+LwXwOMBhqdkZjTKbser4EmPF8oZarNULZkMKWsTP7A0WxRZJm+fEkZ1yuVsTe7sCjEJaygqLaSvMEoF5v8/lSP+1P/0EdsF0JxXPlQGAAAAAASUVORK5CYII=" />
+                                            </svg>
+                                            <span>East 7th street 98</span>
+                                        </div>
+                                        <button class="g-fail_save-btn g-btn_green invert">
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14px" height="12px">
+                                                <image  x="0px" y="0px" width="14px" height="12px" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAMAAABlXnzoAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABAlBMVEWLk6CLlKCMlKCMlKCLlKCLk6CLlKCMlKCLk6CLlKCMlKCMlKCMlKCLlKCLlKCMlKCLk6CLk6CLk6CMlKCMlKCLk6CLk6CLk6CMlKCMlKCLlKCLk6CMlKCMlKCLk6CLk6CLk6CLk6CLk6CMlKCLlKCLlKCLk6CMlKCLlKCMlKCMlKCLlKCLk6CLk6CMlKCLlKCLk6CMlKGLlKCLlKCMlKCLlKCLk6CLk6CLlKCLk6CLlKCLlKCLlKCLk6CLlKCMlKCMlKCMlKCLk6CLlKCMlKCLlKCLk6CLlKCMlKCLlKCLk6CLlKCLk6CLlKCLlKCLlKCLk6CLlKCMlKCMlKCLlKD///9SkY33AAAAVXRSTlMAAAAGcMTKvl8IMafLx58dcMs8EE2/tHocIYrALDsTmEXIi9IaqqKzZA7UbUnVJwWknBIBdtAtCZm5EHjTNw2mthVr1z4Tsa4PXtNXrqEHTuaXB3wzHp43xgAAAAFiS0dEVZMEuDMAAAAHdElNRQflCxkPCBuZfA1MAAAAlUlEQVQI1x2NVRLDQAxDZbdNKWXGlJmZmZnuf5buxv7wjCU9wWA0KWaL1WZXHU4X4PZ4ff5AUAmFI9FYHGqCiJJaiomRziCbI4L4EBj5AoolJmKpcblSRa3egBzmZqvdQbfXHwiFaDgaTwDCdDYnYLFcrXUANtsd9ofjCQIgMHy+XG/3h2wQK4LP11uvElZ5Pt8fSQz+Z3kOTe48oa4AAAAASUVORK5CYII=" />
+                                            </svg>
+                                            <span>Save</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="g-fa_item col-md-3 col-sm-6 col-12">
+                            <div class="g-fai_content-wrap">
+                                <div class="g-fai_poster">
+                                    <img src="" alt="">
+                                    <span class="g-fai_status">New</span>
+                                </div>
+                                <div class="g-fa_info g-dfw">
+                                    <h4>Mobile</h4>
+                                    <div class="g-stowage">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12px" height="15px">
+                                            <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="16px" x="0px" y="15.0989999999999px">
+                                                <tspan font-size="16px" font-family="FontAwesome" fill="#00A651">&#61591;</tspan>
+                                            </text>
+                                        </svg>
+                                    </div>
+                                    <p>Smartphone for sele</p>
+                                    <!-- TODO: Stars TO DO -->
+                                    <div class="g-fai_location g-dfw">
+                                        <div class="g-fail_text-wrap g-dfw">
+                                            <svg class="g-failtw_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="8px" height="11px">
+                                                <image  x="0px" y="0px" width="8px" height="11px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAALCAMAAAB1RTwXAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAsVBMVEVdpVhdpVddpFddpVhdpFddpFddpFddpVhdpVddpVhdpFddpFddpVddpVddpVddpFddpVhdpVddpFddpVddpVhdpVhdpFddpVhdpVhdpVhdpFddpVhdpVhdpVhdpFddpVhdpFddpVhdpVhdpVhcpFddpFddpFddpVhdpVddpVhdpFddpVhdpVddpFddpVhdpFddpVhdpFddpFddpVhdpVddpVddpVhdpFdcpFddpVf////pB9usAAAANnRSTlMAAAAilezbdg03vtKx6I2ouCBA3fnbVZm8kAEZwV3l/pxrur0Qk/xXKuq7DY73VSfnuQ4BhVQDKNRHAAAAAWJLR0Q6TgnE+gAAAAd0SU1FB+ULGQ8FGLXbIrsAAABjSURBVAjXDchXAoIwEAXAl9VgoVixUe3SbOhucv+LwXwOMBhqdkZjTKbser4EmPF8oZarNULZkMKWsTP7A0WxRZJm+fEkZ1yuVsTe7sCjEJaygqLaSvMEoF5v8/lSP+1P/0EdsF0JxXPlQGAAAAAASUVORK5CYII=" />
+                                            </svg>
+                                            <span>East 7th street 98</span>
+                                        </div>
+                                        <button class="g-fail_save-btn g-btn_green invert">
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14px" height="12px">
+                                                <image  x="0px" y="0px" width="14px" height="12px" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAMAAABlXnzoAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABAlBMVEWLk6CLlKCMlKCMlKCLlKCLk6CLlKCMlKCLk6CLlKCMlKCMlKCMlKCLlKCLlKCMlKCLk6CLk6CLk6CMlKCMlKCLk6CLk6CLk6CMlKCMlKCLlKCLk6CMlKCMlKCLk6CLk6CLk6CLk6CLk6CMlKCLlKCLlKCLk6CMlKCLlKCMlKCMlKCLlKCLk6CLk6CMlKCLlKCLk6CMlKGLlKCLlKCMlKCLlKCLk6CLk6CLlKCLk6CLlKCLlKCLlKCLk6CLlKCMlKCMlKCMlKCLk6CLlKCMlKCLlKCLk6CLlKCMlKCLlKCLk6CLlKCLk6CLlKCLlKCLlKCLk6CLlKCMlKCMlKCLlKD///9SkY33AAAAVXRSTlMAAAAGcMTKvl8IMafLx58dcMs8EE2/tHocIYrALDsTmEXIi9IaqqKzZA7UbUnVJwWknBIBdtAtCZm5EHjTNw2mthVr1z4Tsa4PXtNXrqEHTuaXB3wzHp43xgAAAAFiS0dEVZMEuDMAAAAHdElNRQflCxkPCBuZfA1MAAAAlUlEQVQI1x2NVRLDQAxDZbdNKWXGlJmZmZnuf5buxv7wjCU9wWA0KWaL1WZXHU4X4PZ4ff5AUAmFI9FYHGqCiJJaiomRziCbI4L4EBj5AoolJmKpcblSRa3egBzmZqvdQbfXHwiFaDgaTwDCdDYnYLFcrXUANtsd9ofjCQIgMHy+XG/3h2wQK4LP11uvElZ5Pt8fSQz+Z3kOTe48oa4AAAAASUVORK5CYII=" />
+                                            </svg>
+                                            <span>Save</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="g-fa_item col-md-3 col-sm-6 col-12">
+                            <div class="g-fai_content-wrap">
+                                <div class="g-fai_poster">
+                                    <img src="" alt="">
+                                    <span class="g-fai_status">New</span>
+                                </div>
+                                <div class="g-fa_info g-dfw">
+                                    <h4>Mobile</h4>
+                                    <div class="g-stowage">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12px" height="15px">
+                                            <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="16px" x="0px" y="15.0989999999999px">
+                                                <tspan font-size="16px" font-family="FontAwesome" fill="#00A651">&#61591;</tspan>
+                                            </text>
+                                        </svg>
+                                    </div>
+                                    <p>Smartphone for sele</p>
+                                    <!-- TODO: Stars TO DO -->
+                                    <div class="g-fai_location g-dfw">
+                                        <div class="g-fail_text-wrap g-dfw">
+                                            <svg class="g-failtw_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="8px" height="11px">
+                                                <image  x="0px" y="0px" width="8px" height="11px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAALCAMAAAB1RTwXAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAsVBMVEVdpVhdpVddpFddpVhdpFddpFddpFddpVhdpVddpVhdpFddpFddpVddpVddpVddpFddpVhdpVddpFddpVddpVhdpVhdpFddpVhdpVhdpVhdpFddpVhdpVhdpVhdpFddpVhdpFddpVhdpVhdpVhcpFddpFddpFddpVhdpVddpVhdpFddpVhdpVddpFddpVhdpFddpVhdpFddpFddpVhdpVddpVddpVhdpFdcpFddpVf////pB9usAAAANnRSTlMAAAAilezbdg03vtKx6I2ouCBA3fnbVZm8kAEZwV3l/pxrur0Qk/xXKuq7DY73VSfnuQ4BhVQDKNRHAAAAAWJLR0Q6TgnE+gAAAAd0SU1FB+ULGQ8FGLXbIrsAAABjSURBVAjXDchXAoIwEAXAl9VgoVixUe3SbOhucv+LwXwOMBhqdkZjTKbser4EmPF8oZarNULZkMKWsTP7A0WxRZJm+fEkZ1yuVsTe7sCjEJaygqLaSvMEoF5v8/lSP+1P/0EdsF0JxXPlQGAAAAAASUVORK5CYII=" />
+                                            </svg>
+                                            <span>East 7th street 98</span>
+                                        </div>
+                                        <button class="g-fail_save-btn g-btn_green invert">
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14px" height="12px">
+                                                <image  x="0px" y="0px" width="14px" height="12px" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAMAAABlXnzoAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABAlBMVEWLk6CLlKCMlKCMlKCLlKCLk6CLlKCMlKCLk6CLlKCMlKCMlKCMlKCLlKCLlKCMlKCLk6CLk6CLk6CMlKCMlKCLk6CLk6CLk6CMlKCMlKCLlKCLk6CMlKCMlKCLk6CLk6CLk6CLk6CLk6CMlKCLlKCLlKCLk6CMlKCLlKCMlKCMlKCLlKCLk6CLk6CMlKCLlKCLk6CMlKGLlKCLlKCMlKCLlKCLk6CLk6CLlKCLk6CLlKCLlKCLlKCLk6CLlKCMlKCMlKCMlKCLk6CLlKCMlKCLlKCLk6CLlKCMlKCLlKCLk6CLlKCLk6CLlKCLlKCLlKCLk6CLlKCMlKCMlKCLlKD///9SkY33AAAAVXRSTlMAAAAGcMTKvl8IMafLx58dcMs8EE2/tHocIYrALDsTmEXIi9IaqqKzZA7UbUnVJwWknBIBdtAtCZm5EHjTNw2mthVr1z4Tsa4PXtNXrqEHTuaXB3wzHp43xgAAAAFiS0dEVZMEuDMAAAAHdElNRQflCxkPCBuZfA1MAAAAlUlEQVQI1x2NVRLDQAxDZbdNKWXGlJmZmZnuf5buxv7wjCU9wWA0KWaL1WZXHU4X4PZ4ff5AUAmFI9FYHGqCiJJaiomRziCbI4L4EBj5AoolJmKpcblSRa3egBzmZqvdQbfXHwiFaDgaTwDCdDYnYLFcrXUANtsd9ofjCQIgMHy+XG/3h2wQK4LP11uvElZ5Pt8fSQz+Z3kOTe48oa4AAAAASUVORK5CYII=" />
+                                            </svg>
+                                            <span>Save</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="g-fa_item col-md-3 col-sm-6 col-12">
+                            <div class="g-fai_content-wrap">
+                                <div class="g-fai_poster">
+                                    <img src="" alt="">
+                                    <span class="g-fai_status">New</span>
+                                </div>
+                                <div class="g-fa_info g-dfw">
+                                    <h4>Mobile</h4>
+                                    <div class="g-stowage">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12px" height="15px">
+                                            <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="16px" x="0px" y="15.0989999999999px">
+                                                <tspan font-size="16px" font-family="FontAwesome" fill="#00A651">&#61591;</tspan>
+                                            </text>
+                                        </svg>
+                                    </div>
+                                    <p>Smartphone for sele</p>
+                                    <!-- TODO: Stars TO DO -->
+                                    <div class="g-fai_location g-dfw">
+                                        <div class="g-fail_text-wrap g-dfw">
+                                            <svg class="g-failtw_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="8px" height="11px">
+                                                <image  x="0px" y="0px" width="8px" height="11px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAALCAMAAAB1RTwXAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAsVBMVEVdpVhdpVddpFddpVhdpFddpFddpFddpVhdpVddpVhdpFddpFddpVddpVddpVddpFddpVhdpVddpFddpVddpVhdpVhdpFddpVhdpVhdpVhdpFddpVhdpVhdpVhdpFddpVhdpFddpVhdpVhdpVhcpFddpFddpFddpVhdpVddpVhdpFddpVhdpVddpFddpVhdpFddpVhdpFddpFddpVhdpVddpVddpVhdpFdcpFddpVf////pB9usAAAANnRSTlMAAAAilezbdg03vtKx6I2ouCBA3fnbVZm8kAEZwV3l/pxrur0Qk/xXKuq7DY73VSfnuQ4BhVQDKNRHAAAAAWJLR0Q6TgnE+gAAAAd0SU1FB+ULGQ8FGLXbIrsAAABjSURBVAjXDchXAoIwEAXAl9VgoVixUe3SbOhucv+LwXwOMBhqdkZjTKbser4EmPF8oZarNULZkMKWsTP7A0WxRZJm+fEkZ1yuVsTe7sCjEJaygqLaSvMEoF5v8/lSP+1P/0EdsF0JxXPlQGAAAAAASUVORK5CYII=" />
+                                            </svg>
+                                            <span>East 7th street 98</span>
+                                        </div>
+                                        <button class="g-fail_save-btn g-btn_green invert">
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14px" height="12px">
+                                                <image  x="0px" y="0px" width="14px" height="12px" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAMAAABlXnzoAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABAlBMVEWLk6CLlKCMlKCMlKCLlKCLk6CLlKCMlKCLk6CLlKCMlKCMlKCMlKCLlKCLlKCMlKCLk6CLk6CLk6CMlKCMlKCLk6CLk6CLk6CMlKCMlKCLlKCLk6CMlKCMlKCLk6CLk6CLk6CLk6CLk6CMlKCLlKCLlKCLk6CMlKCLlKCMlKCMlKCLlKCLk6CLk6CMlKCLlKCLk6CMlKGLlKCLlKCMlKCLlKCLk6CLk6CLlKCLk6CLlKCLlKCLlKCLk6CLlKCMlKCMlKCMlKCLk6CLlKCMlKCLlKCLk6CLlKCMlKCLlKCLk6CLlKCLk6CLlKCLlKCLlKCLk6CLlKCMlKCMlKCLlKD///9SkY33AAAAVXRSTlMAAAAGcMTKvl8IMafLx58dcMs8EE2/tHocIYrALDsTmEXIi9IaqqKzZA7UbUnVJwWknBIBdtAtCZm5EHjTNw2mthVr1z4Tsa4PXtNXrqEHTuaXB3wzHp43xgAAAAFiS0dEVZMEuDMAAAAHdElNRQflCxkPCBuZfA1MAAAAlUlEQVQI1x2NVRLDQAxDZbdNKWXGlJmZmZnuf5buxv7wjCU9wWA0KWaL1WZXHU4X4PZ4ff5AUAmFI9FYHGqCiJJaiomRziCbI4L4EBj5AoolJmKpcblSRa3egBzmZqvdQbfXHwiFaDgaTwDCdDYnYLFcrXUANtsd9ofjCQIgMHy+XG/3h2wQK4LP11uvElZ5Pt8fSQz+Z3kOTe48oa4AAAAASUVORK5CYII=" />
+                                            </svg>
+                                            <span>Save</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 g-view_all">
+                            <button class="g-btn_green">view all</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Tranding Section -->
+            <section class="g-tranding_ad">
+                <div class="container">
+                    <h2 class="g-s_heading">Trending Ads</h2>
+                    <p class="g-s_desk">Explore the greates places in the city.</p>
+
+                    <div class="row gy-4">
+                        <div class="g-fa_item col-md-4 col-sm-6 col-12">
+                            <div class="g-fai_content-wrap">
+                                <div class="g-fai_poster">
+                                    <img src="" alt="">
+                                    <span class="g-fai_status">Open New</span>
+                                    <div class="g-faip_desk">
+                                        <h4>Cities Finest Spa</h4>
+                                        <p>Kenny Dr Granada Hills, CA 91344 </p>
+                                    </div>
+                                </div>
+                                <div class="g-fa_info g-dfw">
+                                    <div class="g-fai_emote g-dfw">
+                                        <div class="g-faie-item">
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14px" height="12px">
+                                                <image  x="0px" y="0px" width="14px" height="12px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAMAAABlXnzoAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABBVBMVEWMlKCLk6CLlKCLk6CMlKCLk6CLk6CLlKCMlKCMlKGMlKCLk6CMlKCLk6CLk6CMlKCLlKCLk6CLlKCLk6CLlKCMlKCLk6CLlKCLk6CLlKCLk6CLk6CLk6CMlKCMlKCLk6CLlKCLlKCLlKCMlKCLk6CLlKCLk6CLk6CMlKCLk6CLk6CMlKCLlKCLlKCLk6CLlKCLk6CLk6CMlKCLk6CLlKCLk6CLlKCLlKCMlKCLk6CLlKCMlKCMlKCLlKCLk6CLk6CMlKCLlKCMlKCMlKCLlKCLk6CLlKCMlKCLlKCMlKCLk6CMlKCMlKCMlKCLlKCLlKCMlKCMlKCLlKCLk6CMlKCMlKD////a07ykAAAAVnRSTlMAAAAGcMTKvl8IMafLx58dcMs8EE2/tMp6HCGKwCw7E5hFyIvSGqqis2QO1G1J1ScFpJwSAXbQLQmZuRB40zcNprYVa9c+E7GuD17TV66hB07mlwd8M8ygnv8AAAABYktHRFYKDemJAAAAB3RJTUUH5QsZEDMYK71XgwAAAJRJREFUCNcdjlUSAgEMQ9PizuLu7u7u7tz/KnTJVzKTvhQarU5vMJrMFqvN7gCcisvt8fr8gWAoHIlCiRFRPJFkMFJpZLIQMRFAuTwKRWJIIOJSuYJqrQ5iETWarTY63V5fiqDBcDQWw5PpTDDzxXKl3oDXmy3v9oejAKVFdDpfrre7ENUkI4/n6+/URam8P19S/+Afh9QOo6UP5nQAAAAASUVORK5CYII=" />
+                                            </svg>
+                                            <span>5</span>
+                                        </div>
+                                        <div class="g-faie-item">
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14px" height="12px">
+                                                <image  x="0px" y="0px" width="14px" height="12px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAMAAABlXnzoAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABF1BMVEWLlKCMlKCLk6CLlKCMlKCLlKCLlKCLlKCMlKCMlKCMlKCMlKCMlKCMlKCLk6CLk6CMlKCMlKCLlKCLlKCMlKCLlKCMlKCLk6CLlKCLk6CMlKCMlKCLk6CLk6CLlKCLk6CLlKCLk6CLk6CMlKCLlKCLlKCLk6CLk6CLk6CLk6CLk6CMlKCLlKCMlKCLlKCMlKCLk6CLk6CLlKCLlKCLk6CLlKCLk6CLlKCLlKCLk6CLk6CMlKCLk6CMlKCLk6CMlKCLk6CMlKCMlKCLk6CLk6CLk6CLk6CLlKCLk6CLlKCLk6CLk6CLk6CLk6CLk6CMlKCMlKCMlKCLlKCLk6CLk6CLk6CMlKCLk6CLk6CLlKCLk6CLlKD///9DGeZIAAAAXHRSTlMAAAAGUqnHzc7KtnIQEa/KczwnJDJesjgKsp8hDgMBHGzXK13EHQyPcCPOtWIP1m3CBoKtGbuLEWbPQTOOGj03Q1iKvmZX2TWMqp+quKE8Hs+ko1xfSgFS8NVuCXPNdCAAAAABYktHRFzq2ACXAAAAB3RJTUUH5QsZEDQiovAY9gAAAKZJREFUCNcdjAdTwmAYg/O+UIqyp6UMZZQpoJYie4iAILJk8///B1+5S+6SS+4BYLFKNtn+8OhwEgEut8fr8weCobD8xFAiajQWZ0oozy/JFNIZDWAW4mxOhZQnYhJNuFBE6ZXEBNFA5Qqqb+9mNEf60FEz6pp5Jf5sNFugttHhbq8/GH6NvhnAeDL9mc1/F39LQcFKX2+2/7u9ZiJwOJ7OlyvjjqMbd+MRkQbJhUgAAAAASUVORK5CYII=" />
+                                            </svg>
+                                            <span>3</span>
+                                        </div>
+                                    </div>
+                                    <h4 class="g-faiei_tag">Fashion</h4>
+                                    <div class="g-fai_meta g-dfw">
+                                        <div class="g-faim_avatar">
+                                            <img src="" alt="">
+                                        </div>
+                                        <p class="g-faim_desk">Lorem Ipsum is simply dummy text and of the printing typesettin</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="g-fa_item col-md-4 col-sm-6 col-12">
+                            <div class="g-fai_content-wrap">
+                                <div class="g-fai_poster">
+                                    <img src="" alt="">
+                                    <span class="g-fai_status">Open New</span>
+                                    <div class="g-faip_desk">
+                                        <h4>Cities Finest Spa</h4>
+                                        <p>Kenny Dr Granada Hills, CA 91344 </p>
+                                    </div>
+                                </div>
+                                <div class="g-fa_info g-dfw">
+                                    <div class="g-fai_emote g-dfw">
+                                        <div class="g-faie-item">
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14px" height="12px">
+                                                <image  x="0px" y="0px" width="14px" height="12px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAMAAABlXnzoAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABBVBMVEWMlKCLk6CLlKCLk6CMlKCLk6CLk6CLlKCMlKCMlKGMlKCLk6CMlKCLk6CLk6CMlKCLlKCLk6CLlKCLk6CLlKCMlKCLk6CLlKCLk6CLlKCLk6CLk6CLk6CMlKCMlKCLk6CLlKCLlKCLlKCMlKCLk6CLlKCLk6CLk6CMlKCLk6CLk6CMlKCLlKCLlKCLk6CLlKCLk6CLk6CMlKCLk6CLlKCLk6CLlKCLlKCMlKCLk6CLlKCMlKCMlKCLlKCLk6CLk6CMlKCLlKCMlKCMlKCLlKCLk6CLlKCMlKCLlKCMlKCLk6CMlKCMlKCMlKCLlKCLlKCMlKCMlKCLlKCLk6CMlKCMlKD////a07ykAAAAVnRSTlMAAAAGcMTKvl8IMafLx58dcMs8EE2/tMp6HCGKwCw7E5hFyIvSGqqis2QO1G1J1ScFpJwSAXbQLQmZuRB40zcNprYVa9c+E7GuD17TV66hB07mlwd8M8ygnv8AAAABYktHRFYKDemJAAAAB3RJTUUH5QsZEDMYK71XgwAAAJRJREFUCNcdjlUSAgEMQ9PizuLu7u7u7tz/KnTJVzKTvhQarU5vMJrMFqvN7gCcisvt8fr8gWAoHIlCiRFRPJFkMFJpZLIQMRFAuTwKRWJIIOJSuYJqrQ5iETWarTY63V5fiqDBcDQWw5PpTDDzxXKl3oDXmy3v9oejAKVFdDpfrre7ENUkI4/n6+/URam8P19S/+Afh9QOo6UP5nQAAAAASUVORK5CYII=" />
+                                            </svg>
+                                            <span>5</span>
+                                        </div>
+                                        <div class="g-faie-item">
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14px" height="12px">
+                                                <image  x="0px" y="0px" width="14px" height="12px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAMAAABlXnzoAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABF1BMVEWLlKCMlKCLk6CLlKCMlKCLlKCLlKCLlKCMlKCMlKCMlKCMlKCMlKCMlKCLk6CLk6CMlKCMlKCLlKCLlKCMlKCLlKCMlKCLk6CLlKCLk6CMlKCMlKCLk6CLk6CLlKCLk6CLlKCLk6CLk6CMlKCLlKCLlKCLk6CLk6CLk6CLk6CLk6CMlKCLlKCMlKCLlKCMlKCLk6CLk6CLlKCLlKCLk6CLlKCLk6CLlKCLlKCLk6CLk6CMlKCLk6CMlKCLk6CMlKCLk6CMlKCMlKCLk6CLk6CLk6CLk6CLlKCLk6CLlKCLk6CLk6CLk6CLk6CLk6CMlKCMlKCMlKCLlKCLk6CLk6CLk6CMlKCLk6CLk6CLlKCLk6CLlKD///9DGeZIAAAAXHRSTlMAAAAGUqnHzc7KtnIQEa/KczwnJDJesjgKsp8hDgMBHGzXK13EHQyPcCPOtWIP1m3CBoKtGbuLEWbPQTOOGj03Q1iKvmZX2TWMqp+quKE8Hs+ko1xfSgFS8NVuCXPNdCAAAAABYktHRFzq2ACXAAAAB3RJTUUH5QsZEDQiovAY9gAAAKZJREFUCNcdjAdTwmAYg/O+UIqyp6UMZZQpoJYie4iAILJk8///B1+5S+6SS+4BYLFKNtn+8OhwEgEut8fr8weCobD8xFAiajQWZ0oozy/JFNIZDWAW4mxOhZQnYhJNuFBE6ZXEBNFA5Qqqb+9mNEf60FEz6pp5Jf5sNFugttHhbq8/GH6NvhnAeDL9mc1/F39LQcFKX2+2/7u9ZiJwOJ7OlyvjjqMbd+MRkQbJhUgAAAAASUVORK5CYII=" />
+                                            </svg>
+                                            <span>3</span>
+                                        </div>
+                                    </div>
+                                    <h4 class="g-faiei_tag">Fashion</h4>
+                                    <div class="g-fai_meta g-dfw">
+                                        <div class="g-faim_avatar">
+                                            <img src="" alt="">
+                                        </div>
+                                        <p class="g-faim_desk">Lorem Ipsum is simply dummy text and of the printing typesettin</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="g-fa_item col-md-4 col-sm-6 col-12">
+                            <div class="g-fai_content-wrap">
+                                <div class="g-fai_poster">
+                                    <img src="" alt="">
+                                    <span class="g-fai_status">Open New</span>
+                                    <div class="g-faip_desk">
+                                        <h4>Cities Finest Spa</h4>
+                                        <p>Kenny Dr Granada Hills, CA 91344 </p>
+                                    </div>
+                                </div>
+                                <div class="g-fa_info g-dfw">
+                                    <div class="g-fai_emote g-dfw">
+                                        <div class="g-faie-item">
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14px" height="12px">
+                                                <image  x="0px" y="0px" width="14px" height="12px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAMAAABlXnzoAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABBVBMVEWMlKCLk6CLlKCLk6CMlKCLk6CLk6CLlKCMlKCMlKGMlKCLk6CMlKCLk6CLk6CMlKCLlKCLk6CLlKCLk6CLlKCMlKCLk6CLlKCLk6CLlKCLk6CLk6CLk6CMlKCMlKCLk6CLlKCLlKCLlKCMlKCLk6CLlKCLk6CLk6CMlKCLk6CLk6CMlKCLlKCLlKCLk6CLlKCLk6CLk6CMlKCLk6CLlKCLk6CLlKCLlKCMlKCLk6CLlKCMlKCMlKCLlKCLk6CLk6CMlKCLlKCMlKCMlKCLlKCLk6CLlKCMlKCLlKCMlKCLk6CMlKCMlKCMlKCLlKCLlKCMlKCMlKCLlKCLk6CMlKCMlKD////a07ykAAAAVnRSTlMAAAAGcMTKvl8IMafLx58dcMs8EE2/tMp6HCGKwCw7E5hFyIvSGqqis2QO1G1J1ScFpJwSAXbQLQmZuRB40zcNprYVa9c+E7GuD17TV66hB07mlwd8M8ygnv8AAAABYktHRFYKDemJAAAAB3RJTUUH5QsZEDMYK71XgwAAAJRJREFUCNcdjlUSAgEMQ9PizuLu7u7u7tz/KnTJVzKTvhQarU5vMJrMFqvN7gCcisvt8fr8gWAoHIlCiRFRPJFkMFJpZLIQMRFAuTwKRWJIIOJSuYJqrQ5iETWarTY63V5fiqDBcDQWw5PpTDDzxXKl3oDXmy3v9oejAKVFdDpfrre7ENUkI4/n6+/URam8P19S/+Afh9QOo6UP5nQAAAAASUVORK5CYII=" />
+                                            </svg>
+                                            <span>5</span>
+                                        </div>
+                                        <div class="g-faie-item">
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14px" height="12px">
+                                                <image  x="0px" y="0px" width="14px" height="12px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAMAAABlXnzoAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABF1BMVEWLlKCMlKCLk6CLlKCMlKCLlKCLlKCLlKCMlKCMlKCMlKCMlKCMlKCMlKCLk6CLk6CMlKCMlKCLlKCLlKCMlKCLlKCMlKCLk6CLlKCLk6CMlKCMlKCLk6CLk6CLlKCLk6CLlKCLk6CLk6CMlKCLlKCLlKCLk6CLk6CLk6CLk6CLk6CMlKCLlKCMlKCLlKCMlKCLk6CLk6CLlKCLlKCLk6CLlKCLk6CLlKCLlKCLk6CLk6CMlKCLk6CMlKCLk6CMlKCLk6CMlKCMlKCLk6CLk6CLk6CLk6CLlKCLk6CLlKCLk6CLk6CLk6CLk6CLk6CMlKCMlKCMlKCLlKCLk6CLk6CLk6CMlKCLk6CLk6CLlKCLk6CLlKD///9DGeZIAAAAXHRSTlMAAAAGUqnHzc7KtnIQEa/KczwnJDJesjgKsp8hDgMBHGzXK13EHQyPcCPOtWIP1m3CBoKtGbuLEWbPQTOOGj03Q1iKvmZX2TWMqp+quKE8Hs+ko1xfSgFS8NVuCXPNdCAAAAABYktHRFzq2ACXAAAAB3RJTUUH5QsZEDQiovAY9gAAAKZJREFUCNcdjAdTwmAYg/O+UIqyp6UMZZQpoJYie4iAILJk8///B1+5S+6SS+4BYLFKNtn+8OhwEgEut8fr8weCobD8xFAiajQWZ0oozy/JFNIZDWAW4mxOhZQnYhJNuFBE6ZXEBNFA5Qqqb+9mNEf60FEz6pp5Jf5sNFugttHhbq8/GH6NvhnAeDL9mc1/F39LQcFKX2+2/7u9ZiJwOJ7OlyvjjqMbd+MRkQbJhUgAAAAASUVORK5CYII=" />
+                                            </svg>
+                                            <span>3</span>
+                                        </div>
+                                    </div>
+                                    <h4 class="g-faiei_tag">Fashion</h4>
+                                    <div class="g-fai_meta g-dfw">
+                                        <div class="g-faim_avatar">
+                                            <img src="" alt="">
+                                        </div>
+                                        <p class="g-faim_desk">Lorem Ipsum is simply dummy text and of the printing typesettin</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="g-fa_item col-md-4 col-sm-6 col-12">
+                            <div class="g-fai_content-wrap">
+                                <div class="g-fai_poster">
+                                    <img src="" alt="">
+                                    <span class="g-fai_status">Open New</span>
+                                    <div class="g-faip_desk">
+                                        <h4>Cities Finest Spa</h4>
+                                        <p>Kenny Dr Granada Hills, CA 91344 </p>
+                                    </div>
+                                </div>
+                                <div class="g-fa_info g-dfw">
+                                    <div class="g-fai_emote g-dfw">
+                                        <div class="g-faie-item">
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14px" height="12px">
+                                                <image  x="0px" y="0px" width="14px" height="12px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAMAAABlXnzoAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABBVBMVEWMlKCLk6CLlKCLk6CMlKCLk6CLk6CLlKCMlKCMlKGMlKCLk6CMlKCLk6CLk6CMlKCLlKCLk6CLlKCLk6CLlKCMlKCLk6CLlKCLk6CLlKCLk6CLk6CLk6CMlKCMlKCLk6CLlKCLlKCLlKCMlKCLk6CLlKCLk6CLk6CMlKCLk6CLk6CMlKCLlKCLlKCLk6CLlKCLk6CLk6CMlKCLk6CLlKCLk6CLlKCLlKCMlKCLk6CLlKCMlKCMlKCLlKCLk6CLk6CMlKCLlKCMlKCMlKCLlKCLk6CLlKCMlKCLlKCMlKCLk6CMlKCMlKCMlKCLlKCLlKCMlKCMlKCLlKCLk6CMlKCMlKD////a07ykAAAAVnRSTlMAAAAGcMTKvl8IMafLx58dcMs8EE2/tMp6HCGKwCw7E5hFyIvSGqqis2QO1G1J1ScFpJwSAXbQLQmZuRB40zcNprYVa9c+E7GuD17TV66hB07mlwd8M8ygnv8AAAABYktHRFYKDemJAAAAB3RJTUUH5QsZEDMYK71XgwAAAJRJREFUCNcdjlUSAgEMQ9PizuLu7u7u7tz/KnTJVzKTvhQarU5vMJrMFqvN7gCcisvt8fr8gWAoHIlCiRFRPJFkMFJpZLIQMRFAuTwKRWJIIOJSuYJqrQ5iETWarTY63V5fiqDBcDQWw5PpTDDzxXKl3oDXmy3v9oejAKVFdDpfrre7ENUkI4/n6+/URam8P19S/+Afh9QOo6UP5nQAAAAASUVORK5CYII=" />
+                                            </svg>
+                                            <span>5</span>
+                                        </div>
+                                        <div class="g-faie-item">
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14px" height="12px">
+                                                <image  x="0px" y="0px" width="14px" height="12px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAMAAABlXnzoAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABF1BMVEWLlKCMlKCLk6CLlKCMlKCLlKCLlKCLlKCMlKCMlKCMlKCMlKCMlKCMlKCLk6CLk6CMlKCMlKCLlKCLlKCMlKCLlKCMlKCLk6CLlKCLk6CMlKCMlKCLk6CLk6CLlKCLk6CLlKCLk6CLk6CMlKCLlKCLlKCLk6CLk6CLk6CLk6CLk6CMlKCLlKCMlKCLlKCMlKCLk6CLk6CLlKCLlKCLk6CLlKCLk6CLlKCLlKCLk6CLk6CMlKCLk6CMlKCLk6CMlKCLk6CMlKCMlKCLk6CLk6CLk6CLk6CLlKCLk6CLlKCLk6CLk6CLk6CLk6CLk6CMlKCMlKCMlKCLlKCLk6CLk6CLk6CMlKCLk6CLk6CLlKCLk6CLlKD///9DGeZIAAAAXHRSTlMAAAAGUqnHzc7KtnIQEa/KczwnJDJesjgKsp8hDgMBHGzXK13EHQyPcCPOtWIP1m3CBoKtGbuLEWbPQTOOGj03Q1iKvmZX2TWMqp+quKE8Hs+ko1xfSgFS8NVuCXPNdCAAAAABYktHRFzq2ACXAAAAB3RJTUUH5QsZEDQiovAY9gAAAKZJREFUCNcdjAdTwmAYg/O+UIqyp6UMZZQpoJYie4iAILJk8///B1+5S+6SS+4BYLFKNtn+8OhwEgEut8fr8weCobD8xFAiajQWZ0oozy/JFNIZDWAW4mxOhZQnYhJNuFBE6ZXEBNFA5Qqqb+9mNEf60FEz6pp5Jf5sNFugttHhbq8/GH6NvhnAeDL9mc1/F39LQcFKX2+2/7u9ZiJwOJ7OlyvjjqMbd+MRkQbJhUgAAAAASUVORK5CYII=" />
+                                            </svg>
+                                            <span>3</span>
+                                        </div>
+                                    </div>
+                                    <h4 class="g-faiei_tag">Fashion</h4>
+                                    <div class="g-fai_meta g-dfw">
+                                        <div class="g-faim_avatar">
+                                            <img src="" alt="">
+                                        </div>
+                                        <p class="g-faim_desk">Lorem Ipsum is simply dummy text and of the printing typesettin</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="g-fa_item col-md-4 col-sm-6 col-12">
+                            <div class="g-fai_content-wrap">
+                                <div class="g-fai_poster">
+                                    <img src="" alt="">
+                                    <span class="g-fai_status">Open New</span>
+                                    <div class="g-faip_desk">
+                                        <h4>Cities Finest Spa</h4>
+                                        <p>Kenny Dr Granada Hills, CA 91344 </p>
+                                    </div>
+                                </div>
+                                <div class="g-fa_info g-dfw">
+                                    <div class="g-fai_emote g-dfw">
+                                        <div class="g-faie-item">
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14px" height="12px">
+                                                <image  x="0px" y="0px" width="14px" height="12px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAMAAABlXnzoAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABBVBMVEWMlKCLk6CLlKCLk6CMlKCLk6CLk6CLlKCMlKCMlKGMlKCLk6CMlKCLk6CLk6CMlKCLlKCLk6CLlKCLk6CLlKCMlKCLk6CLlKCLk6CLlKCLk6CLk6CLk6CMlKCMlKCLk6CLlKCLlKCLlKCMlKCLk6CLlKCLk6CLk6CMlKCLk6CLk6CMlKCLlKCLlKCLk6CLlKCLk6CLk6CMlKCLk6CLlKCLk6CLlKCLlKCMlKCLk6CLlKCMlKCMlKCLlKCLk6CLk6CMlKCLlKCMlKCMlKCLlKCLk6CLlKCMlKCLlKCMlKCLk6CMlKCMlKCMlKCLlKCLlKCMlKCMlKCLlKCLk6CMlKCMlKD////a07ykAAAAVnRSTlMAAAAGcMTKvl8IMafLx58dcMs8EE2/tMp6HCGKwCw7E5hFyIvSGqqis2QO1G1J1ScFpJwSAXbQLQmZuRB40zcNprYVa9c+E7GuD17TV66hB07mlwd8M8ygnv8AAAABYktHRFYKDemJAAAAB3RJTUUH5QsZEDMYK71XgwAAAJRJREFUCNcdjlUSAgEMQ9PizuLu7u7u7tz/KnTJVzKTvhQarU5vMJrMFqvN7gCcisvt8fr8gWAoHIlCiRFRPJFkMFJpZLIQMRFAuTwKRWJIIOJSuYJqrQ5iETWarTY63V5fiqDBcDQWw5PpTDDzxXKl3oDXmy3v9oejAKVFdDpfrre7ENUkI4/n6+/URam8P19S/+Afh9QOo6UP5nQAAAAASUVORK5CYII=" />
+                                            </svg>
+                                            <span>5</span>
+                                        </div>
+                                        <div class="g-faie-item">
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14px" height="12px">
+                                                <image  x="0px" y="0px" width="14px" height="12px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAMAAABlXnzoAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABF1BMVEWLlKCMlKCLk6CLlKCMlKCLlKCLlKCLlKCMlKCMlKCMlKCMlKCMlKCMlKCLk6CLk6CMlKCMlKCLlKCLlKCMlKCLlKCMlKCLk6CLlKCLk6CMlKCMlKCLk6CLk6CLlKCLk6CLlKCLk6CLk6CMlKCLlKCLlKCLk6CLk6CLk6CLk6CLk6CMlKCLlKCMlKCLlKCMlKCLk6CLk6CLlKCLlKCLk6CLlKCLk6CLlKCLlKCLk6CLk6CMlKCLk6CMlKCLk6CMlKCLk6CMlKCMlKCLk6CLk6CLk6CLk6CLlKCLk6CLlKCLk6CLk6CLk6CLk6CLk6CMlKCMlKCMlKCLlKCLk6CLk6CLk6CMlKCLk6CLk6CLlKCLk6CLlKD///9DGeZIAAAAXHRSTlMAAAAGUqnHzc7KtnIQEa/KczwnJDJesjgKsp8hDgMBHGzXK13EHQyPcCPOtWIP1m3CBoKtGbuLEWbPQTOOGj03Q1iKvmZX2TWMqp+quKE8Hs+ko1xfSgFS8NVuCXPNdCAAAAABYktHRFzq2ACXAAAAB3RJTUUH5QsZEDQiovAY9gAAAKZJREFUCNcdjAdTwmAYg/O+UIqyp6UMZZQpoJYie4iAILJk8///B1+5S+6SS+4BYLFKNtn+8OhwEgEut8fr8weCobD8xFAiajQWZ0oozy/JFNIZDWAW4mxOhZQnYhJNuFBE6ZXEBNFA5Qqqb+9mNEf60FEz6pp5Jf5sNFugttHhbq8/GH6NvhnAeDL9mc1/F39LQcFKX2+2/7u9ZiJwOJ7OlyvjjqMbd+MRkQbJhUgAAAAASUVORK5CYII=" />
+                                            </svg>
+                                            <span>3</span>
+                                        </div>
+                                    </div>
+                                    <h4 class="g-faiei_tag">Fashion</h4>
+                                    <div class="g-fai_meta g-dfw">
+                                        <div class="g-faim_avatar">
+                                            <img src="" alt="">
+                                        </div>
+                                        <p class="g-faim_desk">Lorem Ipsum is simply dummy text and of the printing typesettin</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="g-fa_item col-md-4 col-sm-6 col-12">
+                            <div class="g-fai_content-wrap">
+                                <div class="g-fai_poster">
+                                    <img src="" alt="">
+                                    <span class="g-fai_status">Open New</span>
+                                    <div class="g-faip_desk">
+                                        <h4>Cities Finest Spa</h4>
+                                        <p>Kenny Dr Granada Hills, CA 91344 </p>
+                                    </div>
+                                </div>
+                                <div class="g-fa_info g-dfw">
+                                    <div class="g-fai_emote g-dfw">
+                                        <div class="g-faie-item">
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14px" height="12px">
+                                                <image  x="0px" y="0px" width="14px" height="12px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAMAAABlXnzoAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABBVBMVEWMlKCLk6CLlKCLk6CMlKCLk6CLk6CLlKCMlKCMlKGMlKCLk6CMlKCLk6CLk6CMlKCLlKCLk6CLlKCLk6CLlKCMlKCLk6CLlKCLk6CLlKCLk6CLk6CLk6CMlKCMlKCLk6CLlKCLlKCLlKCMlKCLk6CLlKCLk6CLk6CMlKCLk6CLk6CMlKCLlKCLlKCLk6CLlKCLk6CLk6CMlKCLk6CLlKCLk6CLlKCLlKCMlKCLk6CLlKCMlKCMlKCLlKCLk6CLk6CMlKCLlKCMlKCMlKCLlKCLk6CLlKCMlKCLlKCMlKCLk6CMlKCMlKCMlKCLlKCLlKCMlKCMlKCLlKCLk6CMlKCMlKD////a07ykAAAAVnRSTlMAAAAGcMTKvl8IMafLx58dcMs8EE2/tMp6HCGKwCw7E5hFyIvSGqqis2QO1G1J1ScFpJwSAXbQLQmZuRB40zcNprYVa9c+E7GuD17TV66hB07mlwd8M8ygnv8AAAABYktHRFYKDemJAAAAB3RJTUUH5QsZEDMYK71XgwAAAJRJREFUCNcdjlUSAgEMQ9PizuLu7u7u7tz/KnTJVzKTvhQarU5vMJrMFqvN7gCcisvt8fr8gWAoHIlCiRFRPJFkMFJpZLIQMRFAuTwKRWJIIOJSuYJqrQ5iETWarTY63V5fiqDBcDQWw5PpTDDzxXKl3oDXmy3v9oejAKVFdDpfrre7ENUkI4/n6+/URam8P19S/+Afh9QOo6UP5nQAAAAASUVORK5CYII=" />
+                                            </svg>
+                                            <span>5</span>
+                                        </div>
+                                        <div class="g-faie-item">
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14px" height="12px">
+                                                <image  x="0px" y="0px" width="14px" height="12px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAMAAABlXnzoAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABF1BMVEWLlKCMlKCLk6CLlKCMlKCLlKCLlKCLlKCMlKCMlKCMlKCMlKCMlKCMlKCLk6CLk6CMlKCMlKCLlKCLlKCMlKCLlKCMlKCLk6CLlKCLk6CMlKCMlKCLk6CLk6CLlKCLk6CLlKCLk6CLk6CMlKCLlKCLlKCLk6CLk6CLk6CLk6CLk6CMlKCLlKCMlKCLlKCMlKCLk6CLk6CLlKCLlKCLk6CLlKCLk6CLlKCLlKCLk6CLk6CMlKCLk6CMlKCLk6CMlKCLk6CMlKCMlKCLk6CLk6CLk6CLk6CLlKCLk6CLlKCLk6CLk6CLk6CLk6CLk6CMlKCMlKCMlKCLlKCLk6CLk6CLk6CMlKCLk6CLk6CLlKCLk6CLlKD///9DGeZIAAAAXHRSTlMAAAAGUqnHzc7KtnIQEa/KczwnJDJesjgKsp8hDgMBHGzXK13EHQyPcCPOtWIP1m3CBoKtGbuLEWbPQTOOGj03Q1iKvmZX2TWMqp+quKE8Hs+ko1xfSgFS8NVuCXPNdCAAAAABYktHRFzq2ACXAAAAB3RJTUUH5QsZEDQiovAY9gAAAKZJREFUCNcdjAdTwmAYg/O+UIqyp6UMZZQpoJYie4iAILJk8///B1+5S+6SS+4BYLFKNtn+8OhwEgEut8fr8weCobD8xFAiajQWZ0oozy/JFNIZDWAW4mxOhZQnYhJNuFBE6ZXEBNFA5Qqqb+9mNEf60FEz6pp5Jf5sNFugttHhbq8/GH6NvhnAeDL9mc1/F39LQcFKX2+2/7u9ZiJwOJ7OlyvjjqMbd+MRkQbJhUgAAAAASUVORK5CYII=" />
+                                            </svg>
+                                            <span>3</span>
+                                        </div>
+                                    </div>
+                                    <h4 class="g-faiei_tag">Fashion</h4>
+                                    <div class="g-fai_meta g-dfw">
+                                        <div class="g-faim_avatar">
+                                            <img src="" alt="">
+                                        </div>
+                                        <p class="g-faim_desk">Lorem Ipsum is simply dummy text and of the printing typesettin</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 g-view_all">
+                            <button class="g-btn_green">view all</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Counts Section -->
+            <section class="g-counts">
+                <div class="container">
+                    <div class="row">
+                        <div class="g-c_item col-md-4 col-sm-12">
+                            <h3 data-value="1238">1238+</h3>
+                            <p>Completed Project</p>
+                        </div>
+                        <div class="g-c_item col-md-4 col-sm-12">
+                            <h3>1238+</h3>
+                            <p>Happy Client</p>
+                        </div>
+                        <div class="g-c_item col-md-4 col-sm-12">
+                            <h3>1238+</h3>
+                            <p>Award Winner</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Why we Section -->
+            <section class="g-why_we">
+                <div class="container">
+                    <h2 class="g-s_heading">Trending Ads</h2>
+                    <p class="g-s_desk">Explore the greates places in the city.</p>
+
+                    <div class="row gy-4">
+                        <div class="g-ww_item g-dfw col-md-4 col-sm-6 col-12">
+                            <div class="g-wwi_icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36px" height="23px">
+                                    <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="35px" x="0px" y="23px">
+                                        <tspan font-size="35px" font-family="FontAwesome" fill="#AAAAAA">&#61550;</tspan>
+                                    </text>
+                                </svg>
+                            </div>
+                            <div class="g-wwi_text-wrap">
+                                <h4>Eye on Quality</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesettin</p>
+                            </div>
+                        </div>
+                        <div class="g-ww_item g-dfw col-md-4 col-sm-6 col-12">
+                            <div class="g-wwi_icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36px" height="23px">
+                                    <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="35px" x="0px" y="23px">
+                                        <tspan font-size="35px" font-family="FontAwesome" fill="#AAAAAA">&#61550;</tspan>
+                                    </text>
+                                </svg>
+                            </div>
+                            <div class="g-wwi_text-wrap">
+                                <h4>Eye on Quality</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesettin</p>
+                            </div>
+                        </div>
+                        <div class="g-ww_item g-dfw col-md-4 col-sm-6 col-12">
+                            <div class="g-wwi_icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36px" height="23px">
+                                    <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="35px" x="0px" y="23px">
+                                        <tspan font-size="35px" font-family="FontAwesome" fill="#AAAAAA">&#61550;</tspan>
+                                    </text>
+                                </svg>
+                            </div>
+                            <div class="g-wwi_text-wrap">
+                                <h4>Eye on Quality</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesettin</p>
+                            </div>
+                        </div>
+                        <div class="g-ww_item g-dfw col-md-4 col-sm-6 col-12">
+                            <div class="g-wwi_icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36px" height="23px">
+                                    <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="35px" x="0px" y="23px">
+                                        <tspan font-size="35px" font-family="FontAwesome" fill="#AAAAAA">&#61550;</tspan>
+                                    </text>
+                                </svg>
+                            </div>
+                            <div class="g-wwi_text-wrap">
+                                <h4>Eye on Quality</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesettin</p>
+                            </div>
+                        </div>
+                        <div class="g-ww_item g-dfw col-md-4 col-sm-6 col-12">
+                            <div class="g-wwi_icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36px" height="23px">
+                                    <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="35px" x="0px" y="23px">
+                                        <tspan font-size="35px" font-family="FontAwesome" fill="#AAAAAA">&#61550;</tspan>
+                                    </text>
+                                </svg>
+                            </div>
+                            <div class="g-wwi_text-wrap">
+                                <h4>Eye on Quality</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesettin</p>
+                            </div>
+                        </div>
+                        <div class="g-ww_item g-dfw col-md-4 col-sm-6 col-12">
+                            <div class="g-wwi_icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36px" height="23px">
+                                    <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="35px" x="0px" y="23px">
+                                        <tspan font-size="35px" font-family="FontAwesome" fill="#AAAAAA">&#61550;</tspan>
+                                    </text>
+                                </svg>
+                            </div>
+                            <div class="g-wwi_text-wrap">
+                                <h4>Eye on Quality</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesettin</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Download Section -->
+            <section class="g-download">
+                <div class="container">
+                    <h3 class="g-d_heading">Download on App Store</h3>
+                    <p class="g-d_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                    <div class="g-d_links g-dfw justify-content-center">
+                        <a href="javascript:void(0)" class="g-dl_item g-dfw">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="28px">
+                                <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="30px" x="0px" y="28.3119999999999px">
+                                    <tspan font-size="30px" font-family="FontAwesome" fill="#FFFFFF">&#61817;</tspan>
+                                </text>
+                            </svg>
+                            <span>Apple Store</span>
+                        </a>
+                        <a href="javascript:void(0)" class="g-dl_item g-dfw">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="29px">
+                                <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="30px" x="0px" y="29.3119999999999px">
+                                    <tspan font-size="30px" font-family="FontAwesome" fill="#FFFFFF">&#61819;</tspan>
+                                </text>
+                            </svg>
+                            <span>Google Play</span>
+                        </a>
+                        <a href="javascript:void(0)" class="g-dl_item g-dfw">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28px" height="28px">
+                                <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="30px" x="0px" y="28.3119999999999px">
+                                    <tspan font-size="30px" font-family="FontAwesome" fill="#FFFFFF">&#61818;</tspan>
+                                </text>
+                            </svg>
+                            <span>Windows Store</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!-- Testimonials Section -->
+            <section class="g-testimonials">
+                <div class="container">
+                    <h2 class="g-s_heading">Testimonials</h2>
+                    <p class="g-s_desk">What Our Clients Says</p>
+
+                    <div class="row">
+                        <!-- Swiper -->
+                        <div class="swiper gTestimonials">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide g-dfw justify-content-center g-t_item">
+                                    <div class="g-ti_avatar">
+                                        <img src="" alt="">
+                                    </div>
+                                    <p class="g-ti_message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga sed aspernatur officiis nulla praesentium cupiditate.</p>
+                                    <div class="g-ti_meta">
+                                        <h4>Williams Sherry</h4>
+                                        <p>User</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide g-dfw justify-content-center g-t_item">
+                                    <div class="g-ti_avatar">
+                                        <img src="" alt="">
+                                    </div>
+                                    <p class="g-ti_message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quidem, ex! Asperiores.</p>
+                                    <div class="g-ti_meta">
+                                        <h4>Williams Sherry</h4>
+                                        <p>User</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide g-dfw justify-content-center g-t_item">
+                                    <div class="g-ti_avatar">
+                                        <img src="" alt="">
+                                    </div>
+                                    <p class="g-ti_message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium assumenda consequatur cum repellendus eveniet, excepturi iste neque temporibus?</p>
+                                    <div class="g-ti_meta">
+                                        <h4>Williams Sherry</h4>
+                                        <p>User</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Main Section End -->
+
+        <!-- Footer -->
+        <footer class="g-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-8 col-12 g-f_item">
+                        <h3>Classified</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta eaque animi expedita quis perferendis sint hic commodi ipsam magni fuga nisi veritatis accusamus voluptate in quia nesciunt maxime ex sequi voluptatum quam quidem corrupti iusto laudantium!</p>
+                        <ul class="g-f_social-links g-dfw">
+                            <li class="g-fsl_link">
+                                <a href="javascript:void(0)">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                        <path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" class=""></path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="g-fsl_link">
+                                <a href="javascript:void(0)">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                        <path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" class=""></path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="g-fsl_link">
+                                <a href="javascript:void(0)">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                        <path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" class=""></path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="g-fsl_link">
+                                <a href="javascript:void(0)">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                        <path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" class=""></path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="g-fsl_link">
+                                <a href="javascript:void(0)">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                        <path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" class=""></path>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-12 g-f_item">
+                        <h3>Classified</h3>
+                        <ul class="g-fi_quik-links__list g-dfw">
+                            <li><a href="javascript:void(0)">About Us</a></li>
+                            <li><a href="javascript:void(0)">Contact Us</a></li>
+                            <li><a href="javascript:void(0)">Careers</a></li>
+                            <li><a href="javascript:void(0)">All Cities</a></li>
+                            <li><a href="javascript:void(0)">Help & support</a></li>
+                            <li><a href="javascript:void(0)">Advertise with Us</a></li>
+                            <li><a href="javascript:void(0)">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-12 g-f_item">
+                        <h3>Classified</h3>
+                        <ul class="g-fi_quik-links__list g-dfw">
+                            <li><a href="javascript:void(0)">About Us</a></li>
+                            <li><a href="javascript:void(0)">Contact Us</a></li>
+                            <li><a href="javascript:void(0)">Careers</a></li>
+                            <li><a href="javascript:void(0)">All Cities</a></li>
+                            <li><a href="javascript:void(0)">Help & support</a></li>
+                            <li><a href="javascript:void(0)">Advertise with Us</a></li>
+                            <li><a href="javascript:void(0)">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-8 col-12 g-f_item">
+                        <h3>Classified</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta eaque animi expedita quis perferendis sint hic commodi ipsam magni fuga nisi veritatis accusamus voluptate in quia nesciunt maxime ex sequi voluptatum quam quidem corrupti iusto laudantium!</p>
+                        <form action="#" class="g-subscribe-form g-form">
+                            <label class="g-f_label g-subf_label g-dfw">
+                                <input type="email" name="" placeholder="Email address">
+                                <button class="g-f_btn g-subf_btn">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="envelope" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor" d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z" class=""></path>
+                                    </svg>
+                                </button>
+                            </label>
+                            <p>We respect your privacy</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="g-f_copyright col-12">
+                <p>© Copyright 2000-2017 Classified.com Limited. All rights reserved</p>
+            </div>
+        </footer>
+        <!-- Initialize Swiper -->
+        <script type="text/javascript" src="./node_modules/swiper/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper(".gTestimonials", {
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+        </script>
+    </body>
+</html>
