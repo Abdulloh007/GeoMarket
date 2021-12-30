@@ -23,6 +23,7 @@
 }
 *{
     box-sizing: border-box;
+    outline: none;
     font-family: 'HurmeGeometricSans4', sans-serif;
 }
 body{
@@ -53,7 +54,7 @@ button:hover{
     filter: brightness(1.1);
 }
 a:hover, i:hover, .g-tab_nav li:hover, .g-btn:hover{
-    filter: brightness(0.85);
+    filter: brightness(1.2);
 }
 span{
     display: inline-block;
@@ -133,30 +134,95 @@ input {
 }
 .g-pop_up-wrap {
     position: relative;
-    width: 370px;
+    width: 400px;
     margin: auto auto;
     background: #FFFFFF;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    padding: 65px 50px;
+    padding: 30px 35px;
     border-radius: 6px;
 }
 .g-pop_up-header {
     margin-bottom: 35px;
 }
 .g-pop_up-header h4 {
-    font-size: 20px;
-    font-weight: normal;
-    color: var(--blue);
+    width: 100%;
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--black);
     margin: 0;
+    text-align: center;
 }
-.g-pop_up-header i {
+.g-pop_up-header svg.close {
     position: absolute;
-    top: 15px;
-    right: 15px;
-    color: #E3E3E3;
+    padding: 5px;
+    top: -15px;
+    right: -15px;
+    width: 34px;
+    height: 34px;
     font-size: 24px;
+    color: #E3E3E3;
     cursor: pointer;
+    border-radius: 50%;
+    box-shadow: -5px 5px 15px -10px var(--black);
+    background-color: var(--white);
+}
+/* Tabination Styles */
+.g-tab_nav {
+    width: 100%;
+}
+.g-tab_nav li {
+    position: relative;
+    padding-bottom: 15px;
+    margin-right: 25px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #aaa;
+}
+.g-tab_nav li.active {
+    color: var(--light-black);
+}
+.g-tab_nav li.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 50px;
+    background-color: var(--green);
+}
+.g-tab_nav li:last-child {
+    margin-right: 0;
+}
+.g-tab_item {
+    width: 100%;
+    padding: 35px 20px;
+    border: 1px solid #aaa;
+}
+/* Form Styles */
+.g-form label {
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+}
+.g-form label span {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--light-black);
+}
+.g-form label input, .g-form label select, .g-form label textarea {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 35px;
+    border: none;
+    box-shadow: 0 0 10px -3px #b5b5b5;
+}
+.g-form label textarea {
+    max-width: 100%;
 }
 /* Global Styles */
 /* main.g-main {
@@ -213,7 +279,64 @@ input {
     background-color: transparent;
     border: 1px solid var(--green);
 }
+.g-btn_green.white {
+    color: var(--gray);
+    background-color: var(--white);
+    border: 1px solid var(--white);
+}
+/* - Banners Styles - */
+section.g-banner {
+    background-color: var(--light-black);
+    height: 400px;
+    align-items: center;
+    display: flex;
+}
+section.g-banner .row {
+    height: 100%;
+}
+.g-b_heading {
+    font-size: 40px;
+    color: var(--white);
+    text-align: center;
+}
+.g-b_bread_crumbs {
+    justify-content: center;
+    column-gap: 5px;
+    color: var(--white);
+    font-size: 16px;
+}
+.g-bbc_item {
+    font-size: 16px;
+    color: var(--white);
+}
+.g-bbc_item::after {
+    content: ">>";
+    margin-left: 5px;
+}
+.g-bbc_item:last-child::after {
+    content: none;
+}
+/* - Section Headings Styles - */
+.g_s-heading {
+    position: relative;
+    margin: 10px 0;
+    font-size: 26px;
+    color: var(--light-black);
+    text-align: center;
+}
+.g_s-heading::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 50px;
+    background-color: var(--green);
+    top: calc(100% + 10px);
+    left: calc(50% - 25px);
+}
 /* Header Styles */
+header#g-header {
+    height: 90px;
+}
 nav {
     position: absolute;
     left: 0;
@@ -246,6 +369,14 @@ ul.g-menu li a {
 .g-extra-actions {
     column-gap: 15px;
 }
+.g-ea_item.g-auth svg {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+.g-ea_item.g-auth svg path {
+    fill: #aaa;
+}
 .g-eaii_auth-btn {
     font-size: 14px;
     font-weight: 600;
@@ -257,8 +388,111 @@ ul.g-menu li a {
 .g-post_ad.g-btn_green {
     color: var(--white);
 }
+/* Auth Styles */
+.g-ab-item {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    color: var(--white);
+    font-size: 16px;
+    transition: all .2s ease;
+}
+.g-ab-item:last-child {
+    margin-bottom: 0;
+}
+.g-ab-item:hover {
+    cursor: pointer;
+    filter: drop-shadow(2px 4px 8px #a1a1a1);
+}
+.g-ab-item.facebook {
+    background-color: #4267b2;
+}
+.g-ab-item.google {
+    border: 1px solid #eee;
+    background-color: var(--white);
+    color: var(--light-black)
+}
+.g-ab-item svg {
+    width: 24px;
+    height: 24px;
+    color: currentColor;
+}
+.g-ab-item span {
+    width: calc(100% - 25px);
+    text-align: center;
+}
+.g-auth_or {
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0;
+    padding: 10px 0;
+    line-height: 1;
+    color: var(--light-black);
+    text-align: center;
+}
+.g-auth_or::before, .g-auth_or::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: calc(50% - 20px);
+    height: 1px;
+    background-color: #eee;
+}
+.g-auth_or::after {
+    right: 0;
+    left: auto;
+}
+.g-auth_form {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.g-auth_form label {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border: 1px solid #a6a6a6;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+.g-auth_form label input {
+    width: 100%;
+    border: none;
+    font-size: 18px;
+    color: #6e6e6e;
+}
+.g-auth_form button[type="submit"] {
+    width: 100%;
+    border-radius: 6px;
+}
+.g-auth_actions {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.g-aa_remember-me {
+    width: 50%;
+    font-size: 16px;
+    color: #6e6e6e;
+}
+.g-aa_reset-password {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--green);
+}
+.g-auth-to-reg {
+    width: 100%;
+    justify-content: center;
+    font-size: 16px;
+    color: #6e6e6e;
+}
+.g-auth-to-reg a {
+    color: var(--green);
+    margin-left: 5px;
+}
 /* Mobile Menu Styles */
-/* .g-mobile-nav{
+.g-mobile-nav{
     display: none;
 }
 .g-m-menu {
@@ -296,7 +530,7 @@ ul.g-menu li a {
     backdrop-filter: blur(5px);
     opacity: 1;
     z-index: 6
-} */
+}
 /* - Humburger - */
 .g-humburger {
     position: relative;
@@ -342,7 +576,7 @@ ul.g-menu li a {
 }
 
 /* Bread Crumps Styles */
-.g-bread_crumps {
+.g-bread_crumbs {
     background-color: #f8f8f8;
     padding: 45px;
     margin-top: 90px;
@@ -400,31 +634,45 @@ footer.g-footer {
     margin-top: 30px;
 }
 .g-f_social-links li a {
-    padding: 15px;
-    border-radius: 5px;
     background-color: #5e5e5e;
+    border-radius: 5px;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
 }
 .g-f_social-links li a:hover {
     background-color: var(--green);
 }
+.g-f_social-links li a svg {
+    height: 100%;
+    width: 100%;
+}
+.g-f_social-links li a svg path {
+    fill: var(--white);
+}
 .g-subscribe-form {
     margin: 15px 0 0;
 }
-.g-subf_label {
+.g-subscribe-form .g-subf_label {
     width: 290px;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
     background-color: #5e5e5e;
     border-radius: 5px;
     overflow: hidden;
 }
-.g-subf_label input {
+.g-subscribe-form .g-subf_label input {
     width: calc(100% - 35px);
     font-size: 12px;
     color: #f1f1f1;
     padding: 10px;
     background-color: transparent;
     border: none;
+    border-radius: none;
+    box-shadow: none;
 }
-.g-subf_label input::placeholder {
+.g-subscribe-form .g-subf_label input::placeholder {
     color: #aaa;
 }
 .g-subf_btn {

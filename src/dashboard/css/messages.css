@@ -1,0 +1,153 @@
+.b-message{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 500px;
+}
+.b-search h3{
+    width: 250px;
+    font-weight: 500;
+}
+.seacrh{
+    border-bottom: 1px solid #ccc;
+    padding-left: 20px;
+}
+.message{
+    border-bottom: 1px solid #ccc;
+    padding-left: 20px;
+    width: 100%;
+    display: flex;
+}
+.b-chat_mess{
+    border-left: 1px solid #ccc;
+    position: relative;
+}
+.b-chat_mess{
+    width: 100%;
+}
+.b-l_sid{
+    display: flex;
+    height: 100%;
+}
+.b-users{
+    
+}
+.b-user_on{
+      
+}
+.c-user_n{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 25px;
+    padding-top: 15px ;
+
+}
+.photo-user{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #000;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+.name-st h3{
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+.status-on{
+    color: var(green);
+    text-align: left;
+}
+.status-off{
+    color: var(red);
+    text-align: left;
+}
+.friend{
+    display: flex;
+}
+.self{
+    display: flex;
+    justify-content: flex-end;
+}
+.b-talk{
+    padding: 20px;
+    font-size: 14px;
+}
+.p-friend{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: #000;
+    margin-right: 10px;
+}
+.b-word-fr{
+    max-width: 300px;
+    height: auto;
+    background-color: #e3f3fe;
+    border-radius: 5px;
+    word-wrap: break-word;
+    padding: 10px;
+}
+.b-word-sl{
+    max-width: 300px;
+    height: auto;
+    background-color: #2ac922;
+    border-radius: 5px;
+    word-wrap: break-word;
+    padding: 10px;
+}
+.b-talk h4{
+    padding: 0;
+    margin: 0;
+}
+.p-self{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: #000;
+    margin-left: 10px;
+}
+.block{
+    display: block;
+}
+.clc-s{
+    float: right;
+}
+.b-text-aria{
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid #ccc;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.b-text-aria textarea{
+    width: 75%;
+    border: 0;
+    word-wrap: none;
+    resize: none;
+}
+.ico-btn{
+    border: none;
+    background-color: transparent;
+    width: auto;
+    height: auto;
+}
+.send{
+    width: 70px;
+    height: 30px;
+    border: 1px solid green;
+    border-radius: 20px;
+    background-color: green;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.send a{
+    color: #fff;
+}

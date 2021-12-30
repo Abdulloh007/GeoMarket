@@ -1,0 +1,12 @@
+
+ @media screen and (max-width: 576px) {
+    .btn_content{
+       width: 30%;
+       height: 20px;
+       float: right;
+       position: absolute;
+       top: 1270px;
+       
+    }
+   
+   }

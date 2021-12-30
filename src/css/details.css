@@ -1,0 +1,196 @@
+.g-banner {
+    padding: 0;
+    position: relative;
+}
+.g-slider_banner .swiper-slide {
+    position: relative;
+    min-height: 480px;
+    background-color: pink;
+}
+.g-slider_banner .swiper-slide::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(0, #0004 , transparent);
+    z-index: 5;
+}
+.g-bs_details {
+    position: absolute;
+    padding-bottom: 25px;
+    bottom: 0;
+    width: 100%;
+    z-index: 1
+}
+div.g-bsd_part {
+    width: 50%;
+}
+.g-bsd_part:last-child {
+    justify-content: flex-end;
+}
+.g-bsd_item {
+    font-size: 16px;
+    color: var(--white);
+    margin-right: 15px;
+    align-items: center;
+}
+.g-bsd_item svg {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+.g-bsd_item svg path {
+    fill: var(--white);
+}
+.g-bsd_item a {
+    color: var(--white);
+}
+.g-bsd_btn {
+    margin-left: 15px;
+}
+.g-bsd_btn svg {
+    height: 18px;
+    width: 18px;
+    margin-right: 5px;
+}
+/* Content Section Styles */
+.g-c_heading {
+    margin: 0 0 20px;
+    font-size: 22px;
+    color: var(--light-black);
+}
+.g-c_paragraph {
+    font-size: 16px;
+    color: #7b7b7b;
+    margin: 0 0 20px;
+}
+.g-com_data {
+    margin-bottom: 20px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #aaa;
+}
+.g-com_data li {
+    font-size: 14px;
+    color: var(--light-black);
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+.g-com_data li:last-child {
+    margin-right: 0;
+}
+.g-com_data li svg {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+.g-com_data li svg path {
+    fill: var(--green);
+}
+/* Characters Wrap */
+.g-co_characters li {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--light-black);
+    margin-bottom: 10px;
+}
+.g-co_characters li span:first-child {
+    color: #7b7b7b;
+    width: 50%;
+}
+.g-co_characters li span:last-child {
+    width: 50%;
+}
+/* -------- */
+.g-addition {
+    margin: 40px 0 20px;
+}
+/* Form Styles */
+.g-booking {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px;
+    left: 0;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+}
+.g-booking.g-form label span, .g-booking.g-form label input {
+    font-size: 14px;
+}
+/* Listings Styles */
+h4.g_s-heading {
+    margin-bottom: 50px;
+}
+.g-fai_content-wrap {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    background-color: var(--white);
+    width: 100%;
+    overflow: hidden;
+}
+.g-fai_poster {
+    position: relative;
+    height: 200px;
+    background-color: var(--light-black);
+}
+.g-fai_status {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: var(--yellow);
+    font-size: 13px;
+    color: var(--white);
+}
+.g-fa_info {
+    padding: 25px 15px;
+}
+.g-fai_poster img {}
+.g-fa_info h4 {
+    width: calc(100% - 15px);
+    margin: 0 0 15px;
+    font-size: 18px;
+}
+.g-stowage {
+    width: 15px;
+    text-align: right;
+}
+.g-fa_info p {
+    width: 100%;
+    font-size: 15px;
+    color: #8995a2;
+    margin-bottom: 10px;
+}
+.g-fai_location {
+    width: 100%;
+}
+.g-fail_text-wrap {
+    width: calc(100% - 68px);
+    align-items: center;
+}
+.g-fail_text-wrap svg {
+    margin-right: 7px;
+}
+.g-fail_text-wrap span {
+    width: calc(100% - 15px);
+    color: #8995a2;
+    font-size: 13px;
+}
+.g-fai_location .g-fail_save-btn {
+    font-size: 13px;
+    padding: 7px;
+}
+.g-view_all {
+    margin-top: 40px !important;
+    text-align: center;
+}
+.g-view_all .g-btn_green {
+    padding: 15px 40px;
+    border-radius: 40px;
+    font-size: 18px;
+    text-transform: capitalize;
+}

@@ -30,29 +30,6 @@ window.addEventListener('DOMContentLoaded', function () {
         secontLewelTabination.forEach((item) => activeTabination(item, '.g-nd_tab_nav', '.g-nd_tab_nav li', '.g-nd_tab_item'));
     }
 
-    //PopUp`s
-    let popUpBtns = document.querySelectorAll('.g-pop_up-btn'),
-        popUps = document.querySelectorAll('.g-pop_up');
-
-    function popUper(elem) {
-        popUps.forEach((item) => {
-            const closeBtn = item.querySelector('.fa-close');
-            closeBtn.addEventListener('click', function () {
-                item.classList.remove('active');
-            })
-        });
-        elem.addEventListener('click', function () {
-            for (let i = 0; i < popUps.length; i++) {
-                if (elem.id == popUps[i].dataset.target) {
-                    popUps[i].classList.add('active');
-                }
-            }
-        })
-    }
-    if (popUpBtns != undefined && popUps != undefined) {
-        popUpBtns.forEach((item) =>  popUper(item));
-    }
-
     // History backdrop
     let goBackBtn = document.querySelectorAll('.g-go_back');
 

@@ -5,46 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <title>GeoMarket - Home page</title>
         <link rel="stylesheet" href="./style.css">
-        <link rel="stylesheet" href="./home.css">
+        <link rel="stylesheet" href="./src/css/home.css">
         <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap-grid.min.css">
+        <link rel="icon" type="image/x-icon" href="/favicon.png">
+
     </head>
     <body>
         <!-- Header Section -->
-        <header>
-            <nav class="g-nav">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="g-logo col-md-2 col-sm-6 col-6">
-                            <img src="./assets/img/logo.png" alt="">
-                        </div>
-                        <ul class="g-menu col-md-6 g-dfw">
-                            <li><a href="javascript:void(0)">Home</a></li>
-                            <li><a href="javascript:void(0)">Category</a></li>
-                            <li><a href="javascript:void(0)">All ADS</a></li>
-                            <li><a href="javascript:void(0)">Help/Support</a></li>
-                            <li><a href="javascript:void(0)">Page</a></li>
-                        </ul>
-                        <div class="g-extra-actions g-dfw justify-content-end col-md-4">
-                            <div class="g-ea_item g-dfw g-auth align-items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15px" height="16px">
-                                    <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="18px" x="0px" y="16.166px">
-                                        <tspan font-size="18px" font-family="FontAwesome" fill="#FFFFFF">&#61447;</tspan>
-                                    </text>
-                                </svg>
-                                <div class="g-eaii_auth-btn g-dfw">
-                                    <a href="javascript:void(0)">Register</a>
-                                    <span>/</span>
-                                    <a href="javascript:void(0)">Sign In</a>
-                                </div>
-                            </div>
-                            <div class="g-ea-item">
-                                <button class="g-post_ad g-btn_green invert">Post your AD</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-            <div class="g-h_banner">
+        <header id="header"></header>
+        <div class="g-h_banner">
                 <div class="container">
                     <div class="row align-items-center justify-content-center">
                         <div class="g-h_text-wrap col-md-8">
@@ -84,9 +53,7 @@
                         </div>
                     </div>
                 </div>
-
             </div>
-        </header>
 
         <!-- Header Section End -->
 
@@ -205,7 +172,7 @@
                     <h2 class="g-s_heading">Featured Ads</h2>
                     <p class="g-s_desk">Explore the greates places in the city.</p>
 
-                    <div class="row">
+                    <div class="row gy-4">
                         <div class="g-fa_item col-md-3 col-sm-6 col-12">
                             <div class="g-fai_content-wrap">
                                 <div class="g-fai_poster">
@@ -765,97 +732,11 @@
         <!-- Main Section End -->
 
         <!-- Footer -->
-        <footer class="g-footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 col-sm-8 col-12 g-f_item">
-                        <h3>Classified</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta eaque animi expedita quis perferendis sint hic commodi ipsam magni fuga nisi veritatis accusamus voluptate in quia nesciunt maxime ex sequi voluptatum quam quidem corrupti iusto laudantium!</p>
-                        <ul class="g-f_social-links g-dfw">
-                            <li class="g-fsl_link">
-                                <a href="javascript:void(0)">
-                                    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                        <path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" class=""></path>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li class="g-fsl_link">
-                                <a href="javascript:void(0)">
-                                    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                        <path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" class=""></path>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li class="g-fsl_link">
-                                <a href="javascript:void(0)">
-                                    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                        <path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" class=""></path>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li class="g-fsl_link">
-                                <a href="javascript:void(0)">
-                                    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                        <path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" class=""></path>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li class="g-fsl_link">
-                                <a href="javascript:void(0)">
-                                    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                        <path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" class=""></path>
-                                    </svg>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-12 g-f_item">
-                        <h3>Classified</h3>
-                        <ul class="g-fi_quik-links__list g-dfw">
-                            <li><a href="javascript:void(0)">About Us</a></li>
-                            <li><a href="javascript:void(0)">Contact Us</a></li>
-                            <li><a href="javascript:void(0)">Careers</a></li>
-                            <li><a href="javascript:void(0)">All Cities</a></li>
-                            <li><a href="javascript:void(0)">Help & support</a></li>
-                            <li><a href="javascript:void(0)">Advertise with Us</a></li>
-                            <li><a href="javascript:void(0)">Blog</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-12 g-f_item">
-                        <h3>Classified</h3>
-                        <ul class="g-fi_quik-links__list g-dfw">
-                            <li><a href="javascript:void(0)">About Us</a></li>
-                            <li><a href="javascript:void(0)">Contact Us</a></li>
-                            <li><a href="javascript:void(0)">Careers</a></li>
-                            <li><a href="javascript:void(0)">All Cities</a></li>
-                            <li><a href="javascript:void(0)">Help & support</a></li>
-                            <li><a href="javascript:void(0)">Advertise with Us</a></li>
-                            <li><a href="javascript:void(0)">Blog</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4 col-sm-8 col-12 g-f_item">
-                        <h3>Classified</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta eaque animi expedita quis perferendis sint hic commodi ipsam magni fuga nisi veritatis accusamus voluptate in quia nesciunt maxime ex sequi voluptatum quam quidem corrupti iusto laudantium!</p>
-                        <form action="#" class="g-subscribe-form g-form">
-                            <label class="g-f_label g-subf_label g-dfw">
-                                <input type="email" name="" placeholder="Email address">
-                                <button class="g-f_btn g-subf_btn">
-                                    <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="envelope" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                        <path fill="currentColor" d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z" class=""></path>
-                                    </svg>
-                                </button>
-                            </label>
-                            <p>We respect your privacy</p>
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <div class="g-f_copyright col-12">
-                <p>© Copyright 2000-2017 Classified.com Limited. All rights reserved</p>
-            </div>
-        </footer>
-        <!-- Initialize Swiper -->
+
+        <footer id="footer"></footer>
+
         <script type="text/javascript" src="./node_modules/swiper/swiper-bundle.min.js"></script>
+        <script type="text/javascript" src="./glob.js"></script>
         <script>
             var swiper = new Swiper(".gTestimonials", {
                 navigation: {

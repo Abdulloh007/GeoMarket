@@ -6,6 +6,7 @@
         <title>GeoMarket - Home page</title>
         <link rel="stylesheet" href="../../style.css">
         <link rel="stylesheet" href="./css/dash.css">
+        <link rel="stylesheet" href="./css/post_dash.css">
         <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap-grid.min.css">
     </head>
     <body>
@@ -23,7 +24,7 @@
                         <div class="g-dc_user-meta__nav col-md-3 col-sm-6 col-12">
                             <div class="g-dcu_banner"></div>
                             <div class="g-dcu_avatar">
-                                <img src="" alt="Avatar">
+                                <img src="/assets/img/citata.png" alt="Avatar">
                             </div>
                             <h2>ADITYA</h2>
                             <ul class="g-dc_menu">
@@ -77,11 +78,11 @@
                                 </li>
                             </ul>
                         </div>
-                        <form action="#" class="g-dc_post-ad col-md-9 col-sm-6 col-12 g-dfw">
+                        <form action="#" class="g-dc_post-ad g-form col-md-9 col-sm-6 col-12 g-dfw g-jc-sb">
                             <h2 class="g-dc_heading">Post your Ad</h2>
-                            <h4 class="g-dc_heading">Ad Detail</h4>
                             <div class="g-dcf_part first">
-                                <label class="g-dcf_item">
+                                <h4 class="g-dc_heading">Ad Detail</h4>
+                                <label class="g-dcf_item g-f_label">
                                     <span>Project Title</span>
                                     <input type="text" name="" placeholder="Title" id="">
                                 </label>
@@ -99,11 +100,11 @@
                                     <input type="text" name="" placeholder="Ad Your Price" id="">
                                 </label>
                                 <div class="g-dcf_item g-dcf_file-input">
-                                    <span>Photos for your Ad</span>
-                                    <h3>Please add images of your ad</h3>
+                                    <span class="heading">Photos for your Ad</span>
                                     <label>
+                                        <h3>Please add images of your ad</h3>
                                         <input type="file" multiple name="" id="">
-                                        <span class="g-btn_green">Select Files</span>
+                                        <button class="g-btn_green">Select Files</button>
                                         <p>Maximum upload file size: 500 KB</p>
                                     </label>
                                 </div>
@@ -111,11 +112,13 @@
                                     <span>Ad Description</span>
                                     <!-- TOOLS -->
                                 </label>
-                                <div class="g-chose g-dcf_item">
+                                <label>
                                     <span>Prices</span>
+                                </label>
+                                <div class="g-chose g-dcf_item">
                                     <ul class="g-ch_list">
                                         <li class="g-dfw">
-                                            <input type="checkbox" name="poсket" id="">
+                                            <input type="radio" name="poсket" id="">
                                             <div class="g-chl_pocket">
                                                 <div class="g-chlp_icon"></div>
                                                 <span>Premium</span>
@@ -123,16 +126,16 @@
                                             <p>Price</p>
                                             <span>$15</span>
                                         </li>
-                                        <li class="g-dfw">
-                                            <input type="checkbox" name="poсket" id="">
+                                        <li class="g-dfw yellow">
+                                            <input type="radio" name="poсket" id="">
                                             <div class="g-chl_pocket">
                                                 <span>Sponsored</span>
                                             </div>
                                             <p>Price</p>
                                             <span>$15</span>
                                         </li>
-                                        <li class="g-dfw">
-                                            <input type="checkbox" name="poсket" id="">
+                                        <li class="g-dfw red">
+                                            <input type="radio" name="poсket" id="">
                                             <div class="g-chl_pocket">
                                                 <div class="g-chlp_icon"></div>
                                                 <span>Featured</span>
@@ -143,8 +146,8 @@
                                     </ul>
                                 </div>
                             </div>
-                            <h4 class="g-dc_heading">Contact Detail</h4>
                             <div class="g-dcf_part second">
+                                <h4 class="g-dc_heading">Contact Detail</h4>
                                 <label class="g-dcf_item">
                                     <span>First Name*</span>
                                     <input type="text" name="" placeholder="" id="">
@@ -201,7 +204,7 @@
         <footer id="footer"></footer>
         <!-- Initialize Swiper -->
         <!-- <script type="text/javascript" src="./node_modules/swiper/swiper-bundle.min.js"></script> -->
-        <script type="text/javascript" src="../glob.js"></script>
+        <script type="text/javascript" src="./js/glob.js"></script>
 
     </body>
 </html>

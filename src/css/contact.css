@@ -1,0 +1,67 @@
+.g-send_form {
+    align-items: baseline;
+    align-content: baseline;
+}
+.g-send_form .g_s-heading, .g-get_in-toch .g_s-heading {
+    width: 100%;
+    height: auto;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.g-send_form .g_s-heading::after, .g-get_in-toch .g_s-heading::after {
+    left: 0;
+}
+.g-send_form label {
+    width: calc(33.33335% - (30px / 3));
+}
+.g-send_form label:nth-child(5) {
+    width: 100%;
+}
+.g-send_form label textarea {
+    min-width: 100%;
+}
+/* Get in Touch Wrap */
+.g-s_paragraph {
+    font-size: 14px;
+    font-weight: 600;
+    color: #aaa;
+}
+.g-s_paragraph {
+    font-size: 14px;
+    font-weight: 600;
+    color: #aaa;
+}
+.g-info_list {
+    margin-top: 30px;
+}
+.g-info_list li {
+    margin-bottom: 20px;
+}
+
+.g-info_list li:last-child {
+    margin-bottom: 0;
+}
+.g-ili_icon {
+    width: 25px;
+    height: 18px;
+    margin-right: 10px;
+}
+.g-ili_icon svg {
+    height: 100%;
+}
+
+.g-ili_icon svg path {
+    fill: var(--green);
+}
+.g-ili_text-wrap {
+    width: calc(100% - 35px);
+}
+.g-ili_text-wrap h4 {
+    margin: 0 0 15px;
+    font-size: 16px;
+    color: var(--light-black);
+}
+.g-ili_text-wrap p {
+    font-size: 14px;
+    color: #aaa;
+}
