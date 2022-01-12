@@ -188,7 +188,16 @@
         <!-- Footer Section -->
         <footer id="footer"></footer>
 
+        <script type="text/javascript" src="../node_modules/swiper/swiper-bundle.min.js"></script>
         <script type="text/javascript" src="./js/glob.js"></script>
+        <script>
+            var swiper = new Swiper(".gTestimonials", {
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+        </script>
 
     </body>
 </html>

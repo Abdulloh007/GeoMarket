@@ -29,10 +29,10 @@
     height: 100%;
 }
 .b-users{
-    
+
 }
 .b-user_on{
-      
+
 }
 .c-user_n{
     display: flex;
@@ -151,3 +151,14 @@
 .send a{
     color: #fff;
 }
+
+
+
+/* ---------- Media Styles ---------- */
+@media (max-width: 1200px) { ... }
+
+@media (max-width: 992px) { ... }
+
+@media (max-width: 768px) { ... }
+
+@media (max-width: 576px) { ... }

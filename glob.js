@@ -75,7 +75,7 @@ let runHeader = function () {
                     });
 
                     //ScrollTop Fixed menu
-                    const nav = document.querySelectorAll('.g-nav');
+                    const nav = document.querySelectorAll('.g-stick');
 
                     window.addEventListener('scroll', ()=>{
                         if (document.documentElement.scrollTop > 80) {

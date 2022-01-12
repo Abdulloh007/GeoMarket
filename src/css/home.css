@@ -45,7 +45,6 @@ form.g-search_form {
 }
 /* Categories Section Style */
 section.g-categories .row {
-    row-gap: 30px;
     margin-top: 40px;
 }
 h2.g-s_heading {
@@ -325,4 +324,31 @@ p.g-d_text {
     font-size: 15px;
     text-transform: uppercase;
     margin: 0;
+}
+
+/* ---------- Media Styles ---------- */
+@media (max-width: 1200px) { ... }
+
+@media (max-width: 992px) { ... }
+
+@media (max-width: 768px) { ... }
+
+@media (max-width: 576px) {
+    form.g-search_form {
+        background-color: transparent;
+        padding: 0;
+    }
+    form.g-search_form button {
+        width: 100%;
+    }
+    .g-sf_label {
+        width: 100%;
+        padding: 10px 15px;
+        margin-bottom: 15px;
+        background-color: #fff;
+        border-radius: 35px;
+    }
+    .row .g-ww_item {
+        padding: 0 60px;
+    }
 }

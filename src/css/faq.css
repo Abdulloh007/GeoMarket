@@ -1,0 +1,91 @@
+
+
+
+/* Downoad Section Styles */
+section.g-download {
+    background-image: linear-gradient(45deg, #31b57e, #2bbab9);
+}
+h3.g-d_heading {
+    position: relative;
+    margin: 0 0 30px;
+    font-size: 35px;
+    color: var(--white);
+    text-align: center;
+}
+h3.g-d_heading::after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: calc(50% - 15px);
+    height: 2px;
+    width: 30px;
+    background-color: var(--white);
+}
+p.g-d_text {
+    font-size: 16px;
+    color: var(--white);
+    text-align: center;
+}
+.g-d_links {
+    column-gap: 20px;
+    row-gap: 20px;
+    margin-top: 70px;
+}
+.g-dl_item {
+    padding: 10px 20px;
+    border: 2px solid var(--white);
+    border-radius: 40px;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--white);
+    column-gap: 10px;
+}
+/* Testimonials Section Style */
+h2.g-s_heading {
+    margin: 0 0 10px;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: var(--light-black);
+}
+p.g-s_desk {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--light-black);
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.g-ti_avatar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: var(--light-black);
+    border: 2px solid var(--green);
+}
+.g-ti_message {
+    width: 100%;
+    font-size: 16px;
+    color: var(--light-black);
+    margin: 45px 0 30px;
+    padding: 0 30px;
+}
+.g-ti_meta h4 {
+    color: var(--green);
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+
+/* ---------- Media Styles ---------- */
+@media (max-width: 1200px) { ... }
+
+@media (max-width: 992px) { ... }
+
+@media (max-width: 768px) { ... }
+
+@media (max-width: 576px) { ... }

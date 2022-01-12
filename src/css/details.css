@@ -194,3 +194,20 @@ h4.g_s-heading {
     font-size: 18px;
     text-transform: capitalize;
 }
+
+/* ---------- Media Styles ---------- */
+@media (max-width: 1200px) { ... }
+
+@media (max-width: 992px) { ... }
+
+@media (max-width: 768px) {
+    .g-bsd_part button {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 576px) {
+    .g-bsd_part button:first-child {
+        margin-bottom: 10px;
+    }
+}

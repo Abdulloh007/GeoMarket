@@ -181,3 +181,41 @@ section.g-testimonials .row {
     text-transform: uppercase;
     margin: 0;
 }
+
+
+
+/* ---------- Media Styles ---------- */
+@media (max-width: 1200px) { ... }
+
+@media (max-width: 992px) { ... }
+
+@media (max-width: 768px) {
+    .g-wc_image {
+        display: none;
+    }
+
+
+    .g-hiw_item {
+        margin-bottom: 20px;
+    }
+    .g-hiw_item:nth-child(4)::after {
+        content: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .g-hiw_item {
+        padding: 0 60px !important;
+    }
+    .g-hiw_item::after {
+        content: none;
+    }
+    .g-hiwi_icon {
+        width: 95px;
+        height: 95px;
+        border-width: 5px;
+    }
+    .row .g-ww_item {
+        padding: 0 60px;
+    }
+}

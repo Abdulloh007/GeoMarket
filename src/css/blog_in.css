@@ -361,3 +361,21 @@ p.g-d_text {
     color: var(--white);
     column-gap: 10px;
 }
+
+
+
+/* ---------- Media Styles ---------- */
+@media (max-width: 1200px) { ... }
+
+@media (max-width: 992px) { ... }
+
+@media (max-width: 768px) { ... }
+
+@media (max-width: 576px) {
+    .g-share, .g-deliv {
+        justify-content: center;
+    }
+    .g-s_social-list {
+        width: auto;
+    }
+}

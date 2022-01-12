@@ -194,3 +194,13 @@ table.g-table tr.active .g-t_actions li.pen {
 table.g-table tr.active .g-t_actions li.trash {
     background-color: var(--red);
 }
+
+
+/* ---------- Media Styles ---------- */
+@media (max-width: 1200px) { ... }
+
+@media (max-width: 992px) { ... }
+
+@media (max-width: 768px) { ... }
+
+@media (max-width: 576px) { ... }

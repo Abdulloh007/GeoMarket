@@ -65,3 +65,20 @@
     font-size: 14px;
     color: #aaa;
 }
+
+/* ---------- Media Styles ---------- */
+@media (max-width: 1200px) { ... }
+
+@media (max-width: 992px) { ... }
+
+@media (max-width: 768px) {
+    .g-send_form label {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    form.g-send_form {
+        margin-bottom: 20px;
+    }
+}

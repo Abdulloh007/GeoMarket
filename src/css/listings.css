@@ -168,3 +168,22 @@ section.g-testimonials .row {
     text-transform: uppercase;
     margin: 0;
 }
+
+
+
+/* ---------- Media Styles ---------- */
+@media (max-width: 1200px) { ... }
+
+@media (max-width: 992px) {
+    .g-sort-form label {
+        width: calc(50% - 21px);
+    }
+}
+
+@media (max-width: 768px) { ... }
+
+@media (max-width: 576px) {
+    .g-sort-form label {
+        width: 100%;
+    }
+}

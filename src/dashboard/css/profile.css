@@ -18,13 +18,13 @@
     box-shadow: 0 5px 10px -5px;
 }
 .g-dcu_photo{
-   
+
     width: 105px;
     height: 105px;
     border-radius:50%;
     background-color: #d4d4d4;
     overflow: hidden;
-    
+
 }
 .g-bcu_img{
     margin-top: 40px;
@@ -64,13 +64,13 @@
 .g-dc_heading_set{
     margin: 27px 0px;
     width: 220px;
-    
-    
+
+
 }
 .g-dc_heading_set.second{
     margin-top: 47px;
-    
-    
+
+
 }
 .g-dc_extra-info {
     width: 100%;
@@ -223,7 +223,7 @@ table.g-table tr.active .g-t_actions li.trash {
     border: 1px solid   #dddddd;
     border-radius: 5px;
     padding: 20px 16px;
-    
+
 
 }
 
@@ -232,14 +232,14 @@ form .g-btn_green{
 }
 .g-hg{
     margin-bottom: 25px;
-    
+
 }
 .select, .g_select{
    width: 100%;
    border:1px solid #eeeeee;
    border-radius: 30px;
-   
-   padding: 15px; 
+
+   padding: 15px;
    box-shadow: 0 0 2px rgb(255, 0, 0);
 
 }
@@ -278,7 +278,7 @@ form .g-btn_green{
     height: 20px;
     margin-right: 5px;
     color: var(--green);
-    
+
 }
 .g_btn:hover{
     background: #e9e9e9;
@@ -300,7 +300,18 @@ form .g-btn_green{
 }
 .g-bcu_upload{
     padding: 0 15px;
-    }
-.bcu{
-padding: 30px 15px;
 }
+.bcu{
+    padding: 30px 15px;
+}
+
+
+
+/* ---------- Media Styles ---------- */
+@media (max-width: 1200px) { ... }
+
+@media (max-width: 992px) { ... }
+
+@media (max-width: 768px) { ... }
+
+@media (max-width: 576px) { ... }

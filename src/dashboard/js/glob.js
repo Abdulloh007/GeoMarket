@@ -134,7 +134,7 @@ runFooter = function () {
 },
 runBreadCrumbs = function () {
     getURL(
-        '/src/glob_elems/bread_crumbs.html',
+        '../../glob_elems/bread_crumbs.html',
         function (data) {
             let el = document.createElement('div');
             el.innerHTML = data;
@@ -149,7 +149,7 @@ runBreadCrumbs = function () {
 };
 runDashSidebar = function () {
     getURL(
-        '/src/glob_elems/dash_sidebar.html',
+        '../../glob_elems/dash_sidebar.html',
         function (data) {
             let el = document.createElement('div');
             el.innerHTML = data;
